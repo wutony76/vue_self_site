@@ -3,6 +3,8 @@
     <table width="100%">
 
 
+
+      <!--
       <tr @click="setLang('en')">
         <td><span>Engilsh</span></td>
       </tr>
@@ -11,6 +13,7 @@
       <tr @click="setLang('ch')">
         <td><span>簡中</span></td>
       </tr>
+      -->
 
 
       <tr @click="setLang('tw')">
@@ -19,12 +22,12 @@
 
 
 
-      <!-- 越南 -->
+      <!-- 越南 
       <tr @click="setLang('vn')">
         <td>
           <span> Việt Nam </span>
         </td>
-      </tr>
+      </tr>-->
       
     </table>
   </div>

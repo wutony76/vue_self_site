@@ -31,6 +31,10 @@ router.beforeEach((to, from, next) => {
   console.log(to.name);
   console.log(token);
 
+
+  /*
+
+  
   if (to.name == 'Login') {
     next();
     return;
@@ -55,6 +59,9 @@ router.beforeEach((to, from, next) => {
     next('/login');
     return;
   }
+  */
+
+
   //Vue.prototype.$authToken = token;
   Vue.prototype.$accessToken = token;
 
