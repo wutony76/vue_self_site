@@ -1,0 +1,279 @@
+<template>
+  <main class="flex-shrink-0 main has-footer commonbg">
+    <login-header
+      show_back="2"
+      show_h5="2"
+      :title="$t('rechargeTitle')"
+    ></login-header>
+    <div class="v-content__wrap">
+
+      <!-- recharge step1. -->
+      <div v-show="is_show_recharge == 1" class="glonalmain">
+        <div class="rechargeTab">
+          <div class="van-cell-group van-hairline--top-bottom">
+            <div
+              @click="show_recharge('base')"
+              class="rechagejb van-cell van-cell--clickable"
+            >
+              <i
+                class="iconfont icon-chongzhi360 icon icon-icon-gongdan"
+                style="color: rgb(255, 255, 255); font-size: 40px"
+                ></i
+              >
+              <div class="van-cell__title">
+                <span>{{ $t("rechargeBase") }} </span>
+              </div>
+              <i class="van-icon van-icon-arrow van-cell__right-icon"></i>
+            </div>
+
+            <div
+              @click="show_recharge('promotion')"
+              class="rechagetz van-cell van-cell--clickable"
+            >
+              <i
+                class="iconfont icon-touzixiangmu icon icon-icon-gongdan"
+                style="color: rgb(255, 255, 255); font-size: 40px"
+                ></i
+              >
+              <div class="van-cell__title">
+                <span>{{ $t("rechargePromotion") }} </span>
+              </div>
+              <i class="van-icon van-icon-arrow van-cell__right-icon"></i>
+            </div>
+          </div>
+
+          <h1 class="rechargeh1">
+            {{ $t("rechargeDivided") }}<br /><br />
+            {{ $t("rechargeReceive") }}
+            <br /><br />
+            {{ $t("rechargeMaturity") }}
+            <br /><br />{{ $t("rechargeNotes") }}<br />
+            {{ $t("rechargeInvesting") }}
+          </h1>
+
+        </div>
+      </div>
+      
+
+      <!-- recharge step1. -->
+      <div v-show="is_show_recharge == 3" class="main-container">
+        <div class="container mb-4">
+          <div class="form-group">
+            {{ $t("rechargeCurrency") }}
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              placeholder="quota - "
+              onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"
+              onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"
+              class="form-control"
+            />
+          </div>
+        </div>
+        <div class="container text-center">
+          <button class="btn btn-default mb-2 mx-auto rounded w-100">
+            {{ $t("rechargeNext") }}
+          </button>
+        </div>
+      </div>
+
+
+
+      <div v-show="is_show_recharge == 2" style="display: none">
+        <div class="container mt-3 mb-4 text-center">
+
+          <!-- wallet title -->
+          <div style="margin-bottom: 10px; color: rgb(255, 255, 255)">
+            <!--
+            {{ $t("rechargeBase") }}ttt1
+            -->
+            {{recharge_type_name}}
+          </div>
+
+          <div
+            class="avatar avatar-120 rounded mb-3"
+            style="
+              background-color: rgb(255, 255, 255);
+              width: 140px;
+              height: 145px;
+            "
+          >
+            <div
+              class="background"
+              style="margin-top: 5px; background-image: url('undefined')"
+            >
+              <table width="100%">
+                <tr>
+                  <td align="center">
+                    <div id="qrCodeUrl" ref="qrcode" class="qrcode"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>{{ $t("rechargeAddress") }} </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div style="margin-top: -10px; color: lime">
+            {{ $t("rechargeAddress") }}
+          </div>
+
+        </div>
+        <div class="main-container">
+          <div class="container mb-4">
+            <div class="input-group mb-3">
+              <input
+                v-model="address"
+                type="text"
+                :placeholder="$t('rechargeLink')"
+                id="referallink"
+                class="form-control"
+              />
+              <div class="input-group-append">
+                <button
+                  @click="copy()"
+                  type="button"
+                  id="coplink"
+                  class="btn btn-default rounded"
+                >
+                  {{ $t("rechargeCopy") }}
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="container mb-4">
+            <div class="card border-0 mb-3">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-auto align-self-center">
+                    <!---->
+                    <p class="small text-secondary">
+                      {{ $t("rechargePlease") }}
+                      <br />
+                      <span
+                        ><span class="cred">{{
+                          $t("rechargeArrived")
+                        }}</span></span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center">
+            <table width="100%">
+              <tr>
+                <td>
+                  <button class="btn btn-default mb-2 mx-auto rounded w-100"
+                  @click='goHome()'
+                  >
+                    {{ $t("rechargeCompleted") }}
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <bottom-button></bottom-button>
+  </main>
+</template>
+<script>
+// @ is an alias to /src
+import BottomButton from "@/components/BottomButton.vue";
+import LoginHeader from "@/components/LoginHeader.vue";
+import QRCode from "qrcodejs2";
+//import { apiWallet } from "@/api/api";
+
+export default {
+  name: "Home",
+  components: {
+    BottomButton,
+    LoginHeader,
+  },
+  data() {
+    return {
+      is_show_recharge: 1,
+      address: "",
+      recharge_type_name:"",
+      recharge_type:"basic", 
+    };
+  },
+
+  mounted() {
+    this.$nextTick(() => {});
+  },
+
+
+
+  methods: {
+    show_recharge(type) {
+      this.is_show_recharge = 2;
+
+      if (type == "base") {
+        this.getAddress("USDT_TRC20");
+        this.recharge_type_name=this.$t("rechargeBase");
+        this.recharge_type = "basic";
+
+      } else if (type == "promotion") {
+        this.getAddress("TRX_20");
+        //this.recharge_type_name="test2";
+        this.recharge_type_name=this.$t("rechargePromotion");
+        this.recharge_type = "promotion";
+      }
+      //console.log("recharge = "+ type);
+    },
+    qrcode(text) {
+      this.$refs.qrcode.innerHTML = "";
+      let url = text;
+      new QRCode("qrCodeUrl", {
+        width: 135,
+        height: 135,
+        text: url,
+      });
+    },
+
+    getAddress(type) {
+      //apiWallet({ coin_name: type }).then((res) => {
+      console.log( "ttt type ="+ type );
+
+      var vinst = this;
+      this.$mixapi.call("user/recharge", { coin_name: type }, function(res) {
+        console.log( "ahui recharge >>> " + JSON.stringify(res) );
+        if (res.code == 0) {
+          vinst.qrcode(res.info.address);
+          vinst.address = res.info.address;
+        }
+      });
+    },
+
+    copy() {
+      var domUrl = document.createElement("input");
+      domUrl.value = this.address;
+      domUrl.id = "creatDom";
+      document.body.appendChild(domUrl);
+      domUrl.select(); // 选择对象
+      document.execCommand("Copy"); // 执行浏览器复制命令
+      let creatDom = document.getElementById("creatDom");
+      creatDom.parentNode.removeChild(creatDom);
+      this.$layer.msg(this.$t("copySuccess"));
+    },
+
+    goHome(){
+      let self = this;
+      console.log("ttt>>>>>>>> type = " + this.recharge_type);
+      this.$mixapi.call("user/recharge_finish", { type: this.recharge_type }, function() {
+        self.$router.push('/home');
+      });
+    }
+  },
+};
+</script>
+
+
+<style scoped>
+</style>

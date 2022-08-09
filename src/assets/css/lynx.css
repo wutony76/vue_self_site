@@ -1,0 +1,42 @@
+/* base */
+
+:root {
+  --main_bg_color: #0e2f56;
+  --main_ft_color: #ececda;
+
+  --main_btn_color: #3d6da5;
+  --light_blue_color: #3f8ee9;
+
+
+  --btn_normal_color: #3d6da5;
+  --btn_hover_color: #3e75b4;
+
+  --select_ft_color:#ddba11;
+
+  --white: #ffffff;
+}
+
+
+
+
+
+
+.main {
+  background: #fff;
+}
+.header{
+  background: #0e2f56;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
