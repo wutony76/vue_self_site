@@ -79,8 +79,8 @@ new Vue({
   i18n,
   render: h => h(App),
   created: function() {
-    this.$mixapi.setup(this);
-    document.title = 'Lynx';
+    //this.$mixapi.setup(this);
+    document.title = 'Resume';
     //console.log("Vue: created");
   }
 }).$mount('#app')
