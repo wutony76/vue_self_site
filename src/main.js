@@ -4,8 +4,8 @@ import App from './App.vue'
 import store from './store'
 import router from './router'
 import i18n from './lang'
-import "./assets/css/app.css"
-import "./assets/css/lynx.css"
+//import "./assets/css/app.css"
+//import "./assets/css/lynx.css"
 
 import layer from 'vue2-layer-mobile'
 import ElementUI from 'element-ui';

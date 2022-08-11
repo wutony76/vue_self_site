@@ -18,6 +18,8 @@ import vnLocale from './vn'
 Vue.use(VueI18n)
 
 const messages = {
+
+  /*
   en: {
     ...enLocale,
   },
@@ -63,6 +65,7 @@ const messages = {
   es: {
     ...esLocale,
   }
+  */
   
 }
 export function getLanguage() {

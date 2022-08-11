@@ -397,11 +397,13 @@ export default {
 
 
 
+  /*
   礦機利潤:'Mining machine profit',
   礦機上級獎勵:'Mining machine superior reward',
   團隊獎金:'Team bonus',
   注冊獎勵:'Sign up bonus',
   注冊上級獎勵:'Register for Superior Rewards',
+  */
   
   /*  get coin   */
   金額數量錯誤:'Wrong amount.', 
