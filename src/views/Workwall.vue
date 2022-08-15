@@ -49,19 +49,17 @@
   -->
   <Nav></Nav>
 
-  <!-- header -->
+  <!-- header 
   <header id="home" class="header">
     <div class="overlay text-white text-center">
       <h1 class="display-2 font-weight-bold my-3"> 吳東霖 </h1>
-      <!--
-      <h2 class="display-4 mb-5"> 工作經歷 &amp; 專案展示 </h2>
-      -->
       <h2 class="display-4 mb-5"> Unity應用 &amp; 遊戲開發 </h2>
       <a class="btn btn-lg btn-primary" href="#gallary">工作經歷</a>
     </div>
   </header>
+  -->
 
-  <!--  About Section  -->
+  <!--  About Section  
   <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
     <div class="row">
       <div class="col-lg-6 has-img-bg"></div>
@@ -81,6 +79,7 @@
       </div>
     </div>
   </div>
+  -->
 
 
 
@@ -163,126 +162,7 @@
       </div>
   </div>
 
-  <!-- BLOG Section  -->
-  <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
-      <h2 class="section-title py-5">EVENTS AT THE FOOD HUT</h2>
-      <div class="row justify-content-center">
-          <div class="col-sm-7 col-md-4 mb-5">
-              <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
-                  <li class="nav-item">
-                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#foods" role="tab" aria-controls="pills-home" aria-selected="true">Foods</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#juices" role="tab" aria-controls="pills-profile" aria-selected="false">Juices</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-      <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
-                              <h4 class="pt20 pb20">Reiciendis Laborum </h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
-                              <h4 class="pt20 pb20">Adipisci Totam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
-                              <h4 class="pt20 pb20">Dicta Deserunt</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="tab-pane fade" id="juices" role="tabpanel" aria-labelledby="pills-profile-tab">
-              <div class="row">
-                  <div class="col-md-4 my-3 my-md-0">
-                      <div class="card bg-transparent border">
-                          <img src="assets/imgs/blog-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$15</a></h1>
-                              <h4 class="pt20 pb20">Consectetur Adipisicing Elit</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 my-3 my-md-0">
-                      <div class="card bg-transparent border">
-                          <img src="assets/imgs/blog-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$29</a></h1>
-                              <h4 class="pt20 pb20">Ullam Laboriosam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 my-3 my-md-0">
-                      <div class="card bg-transparent border">
-                          <img src="assets/imgs/blog-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$3</a></h1>
-                              <h4 class="pt20 pb20">Fugit Ipsam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <!-- REVIEWS Section  -->
-  <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
-      <h2 class="section-title my-5 text-center">專案介紹</h2>
-      <div class="row mt-3 mb-5">
-          <div class="col-md-4 my-3 my-md-0">
-              <div class="testmonial-card">
-                  <h3 class="testmonial-title">John Doe</h3>
-                  <h6 class="testmonial-subtitle">Web Designer</h6>
-                  <div class="testmonial-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nobis eligendi, quaerat accusamus ipsum sequi dignissimos consequuntur blanditiis natus. Aperiam!</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 my-3 my-md-0">
-              <div class="testmonial-card">
-                  <h3 class="testmonial-title">Steve Thomas</h3>
-                  <h6 class="testmonial-subtitle">UX/UI Designer</h6>
-                  <div class="testmonial-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 my-3 my-md-0">
-              <div class="testmonial-card">
-                  <h3 class="testmonial-title">Miranda Joy</h3>
-                  <h6 class="testmonial-subtitle">Graphic Designer</h6>
-                  <div class="testmonial-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nam. Earum nobis eligendi, dignissimos consequuntur blanditiis natus. Aperiam!</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+  
 
   <!-- CONTACT Section  -->
   <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
@@ -325,125 +205,6 @@
       </div>
   </div>
 
-
-
-  
-
-  
-  
-  <!--
-    <login-header show_h5="1"></login-header>
-
-    <div class="bodydiv">
-
-      <div class="main-box" >
-        <div class="box1" >
-          <h1>
-            {{ my_usdt }} USDT
-          </h1>
-        </div>
-        <div class="box1" >
-          ≈ NT {{ my_usdt_to_nt }}
-        </div>
-
-      </div>
-
-      
-
-      <div class="quicknav">
-
-        <router-link to="/trans_out_req">
-          <h4>
-            <img src="../assets/lynx/c_b1.png" />
-          </h4>
-          <p>轉帳</p>
-        </router-link>
-
-        <router-link to="/trans_in">
-          <h4>
-            <img src="../assets/lynx/c_b2.png" />
-          </h4>
-          <p>收款</p>
-        </router-link>
-
-        <router-link to="/fast">
-          <h4>
-            <img src="../assets/lynx/c_b3.png" />
-          </h4>
-          <p>轉換</p>
-        </router-link>
-
-        
-        <a  @click='go_bank()' href="javascript:void(0)">
-          <h4>
-            <img src="../assets/lynx/c_b4.png" />
-          </h4>
-          <p>帳務</p>
-        </a>
-
-
-
-        <a  @click='logout()' href="javascript:void(0)">
-          <h4>
-            <img src="../assets/lynx/c_b5.png" />
-          </h4>
-          <p>登出</p>
-          
-        </a>
-
-      </div>
-
-      
-      <div class="top3">
-
-        <div class="wallets">
-          <div
-          
-            class="wallet-item"
-            v-for="(item, index) in user_items"
-            v-bind:key="index"
-          >
-
-              <table
-                :to="{name: 'WalletItem', query: {id: item.item_id }}"
-              >
-                <tr>
-                  <td class="icon">
-                    <img 
-                      v-if = "item.name == 'USDT'"
-                      src="../assets/lynx/usdt.png" 
-                    />
-                    <img 
-                      v-if = "item.name == 'TRX'"
-                      src="../assets/lynx/trx.png" 
-                    />
-                  </td>
-                  <td class="name">
-                    <span>{{ item.name }}</span>
-                  </td>
-                  <td class="num">
-                    <span>{{ item.credit }}</span>
-                    <br />≈ NT {{ item.usd }}
-                  </td>
-                </tr>
-              </table>
-          </div>
-        </div>
-
-
-
-
-        
-
-
-
-      </div>
-
-      <div class="weui-popup__overlay" style="display: none">&nbsp;</div>
-    </div>
-    <bottom-button :key="refresh_key"></bottom-button>
-
-    -->
   </main>
 
 
@@ -460,7 +221,7 @@ import Cookies from 'js-cookie'
 //import { apiUserInfo, apiTotal } from "@/api/api";
 
 export default {
-  name: "Home",
+  name: "Workwall",
   components: {
     Nav,
     //BottomButton,

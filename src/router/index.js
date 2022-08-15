@@ -10,7 +10,7 @@ const routes = [
     name: 'Index',
     component: Home,
     meta: {
-      title: 'Lynx'
+      title: 'Resume'
     }
   },
 
@@ -76,9 +76,20 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Lynx - 資產'
+      title: 'Resume'
     }
   },
+
+  {
+    path: '/workwall',
+    name: 'Workwall',
+    component:()=>import('../views/Workwall.vue'),
+    meta: {
+      title: 'Workwall'
+    }
+  },
+
+
 
   {
     path: '/bank',
@@ -277,10 +288,12 @@ const router = new VueRouter({
   routes
 })
 
+/*
 const originalPush = VueRouter.prototype.push;
 VueRouter.prototype.push = function push(location) {
   return originalPush.call(this, location).catch((error) => error);
 };
+*/
 
 router.beforeEach((to, from, next) => {
   //document.title = "Lynx";
