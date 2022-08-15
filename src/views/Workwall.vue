@@ -85,7 +85,7 @@
 
   <!--  gallary Section  -->
   <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
-      <h2 class="section-title">OUR MENU</h2>
+      <h2 class="section-title">3D美術</h2>
   </div>
   <div class="gallary row">
       <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
@@ -161,6 +161,451 @@
           </a>
       </div>
   </div>
+
+
+  <!--  gallary Section  -->
+  <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+      <h2 class="section-title">平面2D</h2>
+  </div>
+
+  <div class="waterfall">
+      <div class="waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m01.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class="waterfall-item wow fadeIn ">
+        <img src="assets/imgs/2D/m02.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn ">
+          <img src="assets/imgs/2D/m03.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+          <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn ">
+        <img src="assets/imgs/2D/m04.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m05.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m06.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m07.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m08.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m09.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m10.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m11.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m12.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m13.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m14.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m15.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m16.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m17.png" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m18.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/m19.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <!-- *************************************************************** -->
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o01.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o02.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o03.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o04.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o05.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o06.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o07.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o08.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o09.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o10.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o11.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o12.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o13.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o14.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o15.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o16.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o17.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o18.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o19.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o20.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/o21.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <!-- *************************************************************** -->
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p1.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p2.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p3.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p4.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p5.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p6.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p7.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p8.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p9.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p10.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p11.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p12.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p13.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p14.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p15.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p16.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p17.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p18.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p19.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p20.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p21.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p22.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p23.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p24.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p25.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p26.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p27.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p28.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p29.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p30.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p31.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p32.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p33.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p34.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p35.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p36.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p37.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p38.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p39.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/p40.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/q1.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/q2.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/q3.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room1.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room2.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room3.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room4.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room5.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room6.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/room7.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s01.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s02.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s03.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s04.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s05.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s06.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s07.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/s08.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/z01.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/z02.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/z03.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/_000.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+      <div class=" waterfall-item wow fadeIn">
+        <img src="assets/imgs/2D/_001.jpg" alt="平面2D" class="waterfall-img " loading="lazy">
+        <a href="javascript:void(0)" class="gallary-overlay"></a>
+      </div>
+
+  </div>
+
+
 
   
 
@@ -349,3 +794,91 @@ export default {
 
 
 
+<style scoped>
+img{
+    width: 100%;
+    height:auto;
+}
+.cover {
+    object-fit: cover;
+}
+
+.waterfall{
+   width: 100%;
+   margin: 0px auto;
+   column-count: 4;
+   column-gap: 0px;
+}
+
+.waterfall-item{
+    padding: 0;
+    border: 1px solid #343a40;
+    box-sizing: border-box;
+    margin: 0 auto;
+    break-inside: avoid;
+
+
+    position: relative;
+}
+
+.waterfall-img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.waterfall-item:hover{
+    cursor:pointer;
+    border: 1px solid #ff214f;
+    
+}
+
+/*
+-webkit-filter:contrast(2);
+*/
+
+
+.waterfall .waterfall-item:hover .waterfall-img{
+    /*
+    -webkit-filter:contrast(2);
+    */
+    -webkit-filter:saturate(1.3);
+}
+
+.waterfall .waterfall-item:hover .gallary-overlay {
+    /*
+    visibility: visible;
+    opacity: 1;
+    */
+}
+
+.waterfall .waterfall-item .gallary-overlay {
+    background: rgba(52, 58, 64, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    
+    visibility: hidden;
+    opacity: 0;
+    
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+</style>
