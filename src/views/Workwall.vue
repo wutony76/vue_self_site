@@ -806,7 +806,7 @@ img{
 .waterfall{
    width: 100%;
    margin: 0px auto;
-   column-count: 4;
+   column-count: 5;
    column-gap: 0px;
 }
 

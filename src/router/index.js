@@ -81,6 +81,15 @@ const routes = [
   },
 
   {
+    path: '/project',
+    name: 'Project',
+    component:()=>import('../views/Project.vue'),
+    meta: {
+      title: 'Project'
+    }
+  },
+
+  {
     path: '/workwall',
     name: 'Workwall',
     component:()=>import('../views/Workwall.vue'),
@@ -88,6 +97,8 @@ const routes = [
       title: 'Workwall'
     }
   },
+
+
 
 
 

@@ -6,8 +6,32 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
+
+            <li 
+              v-if = "_type == 'home'"
+              class="nav-item">
+              now. {{ _type }}
+            </li>
+            
+            <li 
+              v-else
+              class="nav-item">
+              123
+            </li>
+
+
+
             <li class="nav-item">
               <a 
+                v-if = "_type == 'home'"
+                class="nav-link" 
+                href="#about">
+                關於東霖
+              </a>
+            </li>
+            <li class="nav-item">
+              <a 
+                v-if = "_type != 'home'"
                 @click="go('home')"
                 class="nav-link" 
                 href="javascript:void(0)">
@@ -15,8 +39,15 @@
               </a>
             </li>
 
+
+
+
+
             <li class="nav-item">
-              <a class="nav-link" href="#about">
+              <a 
+                @click="go('home')"
+                class="nav-link" 
+                href="javascript:void(0)">
                 工作經歷
               </a>
             </li>
@@ -121,12 +152,18 @@ export default {
 
 
   props: {
+    _type:{ default:"none", type:String },
+    _status:{ default:"none", type:String },
+
+
     show_lang: [Number, String],
     show_back: String,
     title: [String],
     show_h5: [Number, String],
   },
   watch: {
+
+    /*
     show_lang: {
       handler: function () {
         this.$parent.hide_lang(3);
@@ -134,11 +171,20 @@ export default {
       },
       deep: true,
     },
+    */
   },
   data() {
     return {
       change_language: this.show_lang,
     };
+  },
+
+  mounted(){
+
+    this.$nextTick(() => {
+      console.log("ttt._status = " + this._status);
+
+    });
   },
 
 

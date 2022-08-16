@@ -3,54 +3,7 @@
   
   
 <main class="commonbg main has-footer">
-
-  <!-- Navbar 
-  <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#gallary">Gallary</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#book-table">Book-Table</a>
-              </li>
-          </ul>
-
-          <a class="navbar-brand m-auto" href="#">
-              <img src="assets/imgs/logo.svg" class="brand-img" alt="">
-              <span class="brand-txt">Food Hut</span>
-          </a>
-
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#testmonial">Reviews</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                  <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
-  -->
-  <Nav
-    :_type = "view_type"
-  >
-  </Nav>
+  <Nav></Nav>
 
   <!-- header -->
   <header id="home" class="header">
@@ -60,10 +13,9 @@
       <h2 class="display-4 mb-5"> 工作經歷 &amp; 專案展示 </h2>
       -->
       <h2 class="display-4 mb-5"> Unity應用 &amp; 遊戲開發 </h2>
-      <a class="btn btn-lg btn-primary" href="#work">工作經歷</a>
+      <a class="btn btn-lg btn-primary" href="#gallary">工作經歷</a>
     </div>
   </header>
-
 
   <!--  About Section  -->
   <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
@@ -87,142 +39,122 @@
   </div>
 
 
-
+  
   <div id="work" class="work-content">
+
     <div class="stepsmainblock" id="steps">
-      <div class="wrap">
-        <div class="dashtop"></div>
-        
-        <h2 class=" py-5" 
-          style="
-            margin-bottom: 0.5rem;
-            font-family: 'Oswald', sans-serif;
-            /*
-            font-weight: 500;
-            */
-            line-height: 1.2;
+        <div class="wrap">
+            <div class="dashtop"></div>
+            <h2>
+                How to work with platform
+                <small> simple <span class="gt"> 3 steps </span> to get earnings </small>
+            </h2>
 
-            display: block;
-    
-            margin-block-start: 0.83em;
-            margin-block-end: 0.83em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            text-align: center;
-            font-size: 4rem;
-          "
-          >
-          工作經歷
-            <small> simple <span class="gt"> 3 steps </span> to get earnings </small>
-        </h2>
-
-        <div class="stepsline">
-          <div class="bigstepline"></div>
-          <div class="bigsteplinecic1"></div>
-          <div class="stepslinewrap">
-              <h3>Step #1: Make deposit</h3>
-              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                <h4>Get</h4>
-                We recommend to use: 
-                <b>TronLink</b> / <b>TronMask</b> 
-                browsers extensions, or 
-                <a href="#" target="_blank">TronWallet</a> / <a href="#" target="_blank">Banko</a> 
-                mobile apps.
-                <br>
-                You can get TRX coins via popular exchangers.
-                <a href="#" data-remodal-target="tron" class="maindescbut">
-                  How to get TRX
-                </a>
-              </div>
-
-              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                <h4>Send TRX to our smart-contract</h4>
-                Send any amount of TRX on smart-contract address and start to get earnings every moment. Minimal deposit amount is 
-                <b>300 USDT</b>
-                <a href="#" data-remodal-target="invest" class="maindescbut">Snap purchase package</a>
-              </div>
-          </div>
-          <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-            <div class="icosteps2">
-                <!--
-                <img src="./css/icostep2.png" alt="">
-                -->
-                <img src="../assets/work/icostep5.png" alt="">
-            </div>
-          </div>
-        </div>
-
-
-        <div class="stepsline">
-            <div class="bigsteplinecic1"></div>
-            <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                <div class="icosteps2">
-
-                </div>
-                <form class="maincontform">
-                    <label>Your TRX wallet address:</label>
-
-                    <input type="text" class="trxWallet authTrue" value="Wallet address" style="display:block !important" readonly="">
-                    <input type="text" class="trxWallet authFalse" placeholder="Connect with your wallet app..." readonly="" style="display: none;">
-                    <a href="#" data-remodal-target="wallet" class="maindescbut">
-                        Check wallet statistics
-                    </a>
-                </form>
-            </div>
-            <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                <h3>Step #2: Get earnings</h3>
-                <div class="stepsblock stepsblockfull">
-                    <h4> Get your TRX every moment</h4>
-                    You can check all your wallet information, including your deposits, earnings, withdraw and referral statistics in real time.
-                    <br><br>
-                    <u>
-                        Additional earnings with referral program:
-                    </u>
+            <div class="stepsline">
+              <div class="bigstepline"></div>
+              <div class="bigsteplinecic1"></div>
+              <div class="stepslinewrap">
+                  <h3>Step #1: Make deposit</h3>
+                  <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                    <h4>Get</h4>
+                    We recommend to use: 
+                    <b>TronLink</b> / <b>TronMask</b> 
+                    browsers extensions, or 
+                    <a href="#" target="_blank">TronWallet</a> / <a href="#" target="_blank">Banko</a> 
+                    mobile apps.
                     <br>
-                    3 levels of affiliate rewards: 
-                    <a href="#" data-remodal-target="wallet" class="maindescbut">
-                        Your wallet statistics
+                    You can get TRX coins via popular exchangers.
+                    <a href="#" data-remodal-target="tron" class="maindescbut">
+                      How to get TRX
                     </a>
+                  </div>
 
+                  <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                    <h4>Send TRX to our smart-contract</h4>
+                    Send any amount of TRX on smart-contract address and start to get earnings every moment. Minimal deposit amount is 
+                    <b>300 USDT</b>
+                    <a href="#" data-remodal-target="invest" class="maindescbut">Snap purchase package</a>
+                  </div>
+              </div>
+              <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+                <div class="icosteps2">
+                    <!--
+                    <img src="./css/icostep2.png" alt="">
+                    -->
+                    <img src="../assets/work/icostep5.png" alt="">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="stepsline">
+                <div class="bigsteplinecic1"></div>
+                <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+                    <div class="icosteps2">
+
+                    </div>
+                    <form class="maincontform">
+                        <label>Your TRX wallet address:</label>
+
+                        <input type="text" class="trxWallet authTrue" value="Wallet address" style="display:block !important" readonly="">
+                        <input type="text" class="trxWallet authFalse" placeholder="Connect with your wallet app..." readonly="" style="display: none;">
+                        <a href="#" data-remodal-target="wallet" class="maindescbut">
+                            Check wallet statistics
+                        </a>
+                    </form>
+                </div>
+                <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                    <h3>Step #2: Get earnings</h3>
+                    <div class="stepsblock stepsblockfull">
+                        <h4> Get your TRX every moment</h4>
+                        You can check all your wallet information, including your deposits, earnings, withdraw and referral statistics in real time.
+                        <br><br>
+                        <u>
+                            Additional earnings with referral program:
+                        </u>
+                        <br>
+                        3 levels of affiliate rewards: 
+                        <a href="#" data-remodal-target="wallet" class="maindescbut">
+                            Your wallet statistics
+                        </a>
+
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="stepsline">
-          <div class="bigsteplinecic1"></div>
-          <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-            <h3>Step #3: Request withdraw</h3>
-            <div class="stepsblock stepsblockfull2">
-              <h4> Request TRX withdraw</h4>
-              <i class="far fa-check-circle"></i>
-              Your payout will come
-              <b>instantly</b>
-              <br><br>
-              <i class="far fa-check-circle"></i>
-              Request withdraw from the
-              <b>same wallet</b>
-              you deposited
-              <br><br>
-              <i class="far fa-check-circle"></i>
-              All your wallet deposits and referral earnings will be withdrawn with single transaction per 1 request
-            </div>
-          </div>
-          <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-              <div class="icosteps2">
-                  <img src="../assets/work/icostep5.png" alt="">
+            <div class="stepsline">
+              <div class="bigsteplinecic1"></div>
+              <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                <h3>Step #3: Request withdraw</h3>
+                <div class="stepsblock stepsblockfull2">
+                  <h4> Request TRX withdraw</h4>
+                  <i class="far fa-check-circle"></i>
+                  Your payout will come
+                  <b>instantly</b>
+                  <br><br>
+                  <i class="far fa-check-circle"></i>
+                  Request withdraw from the
+                  <b>same wallet</b>
+                  you deposited
+                  <br><br>
+                  <i class="far fa-check-circle"></i>
+                  All your wallet deposits and referral earnings will be withdrawn with single transaction per 1 request
+                </div>
               </div>
-          </div>
-        </div>
+              <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+                  <div class="icosteps2">
+                      <img src="../assets/work/icostep5.png" alt="">
+                  </div>
+              </div>
+            </div>
 
-      </div>
+        </div>
     </div>
   </div>
 
 
-
-
-
+  
 
 
   <!--  gallary Section  -->
@@ -612,9 +544,6 @@ export default {
 
   data() {
     return {
-      view_type: "home",
-
-
       my_usdt: 0,
       my_usdt_to_nt: 0,
 
@@ -964,6 +893,7 @@ h4 {
 }
 
 </style>
+
 
 
 
