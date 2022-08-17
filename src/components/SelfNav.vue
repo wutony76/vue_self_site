@@ -85,9 +85,10 @@
 
           <!-- LOGO -->
           <a class="navbar-brand m-auto" href="#">
-              <!--
+              <!-- 
               <img src="assets/imgs/logo.svg" class="brand-img" alt="">
               -->
+              
               <span class="brand-txt"> Resume </span>
           </a>
           <!-- LOGO end. -->

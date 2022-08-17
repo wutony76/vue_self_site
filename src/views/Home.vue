@@ -1,52 +1,6 @@
 <template>
-
-  
-  
 <main class="commonbg main has-footer">
 
-  <!-- Navbar 
-  <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#gallary">Gallary</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#book-table">Book-Table</a>
-              </li>
-          </ul>
-
-          <a class="navbar-brand m-auto" href="#">
-              <img src="assets/imgs/logo.svg" class="brand-img" alt="">
-              <span class="brand-txt">Food Hut</span>
-          </a>
-
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#testmonial">Reviews</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                  <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
-  -->
   <Nav
     :_type = "view_type"
   >
@@ -59,10 +13,15 @@
       <!--
       <h2 class="display-4 mb-5"> 工作經歷 &amp; 專案展示 </h2>
       -->
-      <h2 class="display-4 mb-5"> Unity應用 &amp; 遊戲開發 </h2>
+      <h2 class="display-4 mb-5"> Unity應用 &amp; Android開發 </h2>
       <a class="btn btn-lg btn-primary" href="#work">工作經歷</a>
     </div>
   </header>
+
+
+
+
+
 
 
   <!--  About Section  -->
@@ -74,24 +33,87 @@
           <div class="col-sm-8 py-5 my-5">
             <h2 class="mb-4"> 自傳 </h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum, 
-              <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum? 
-              <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.
+            <p>
+            您好，我是吳東霖，來自宜蘭。樂於接收新的知識與創新的想法，喜歡親自動手操作、發想設計，用實際上的行動和數據比空話更有份量。經常在團隊的交流與協調過程中，學習並增進自身的能力；個性穩定，做事細心謹慎，無論是工作或任務指派，都能有效的達成。期望用自己的專業替公司帶來更大的效益。
+
+            <br>
+            <br>
+
+            專業能力方面，高職開始學習程式設計與邏輯思考訓練，程式語言從VB、ActionScript、JAVA...等都有一段時間的接觸過，有扎實基礎的編寫程式和解決問題能力；新的技術和開發架構，都可以很快配合並獨立作業。工作至今，除了擔任3D美術，另有豐富的遊戲開發經驗，可以主動擔負相關工作，使任務分工能更有效率。
+            
             </p>
-            <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.</b></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- REVIEWS Section  -->
+  <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+      <h2 class="section-title my-5 text-center">我能做到</h2>
+      <div class="row mt-3 mb-5">
+          <div class="col-md-4 my-3 my-md-0">
+              <div class="testmonial-card">
+                  <h3 class="testmonial-title">研發</h3>
+                  <h6 class="testmonial-subtitle">Development </h6>
+                  <div class="testmonial-body">
+                    <p
+                        style="
+                            text-align: left;
+                        "
+                    >
+                    當公司有了新的創意發想，須確認該專案是否能繼續執行，會和我們討論初步<b>展示或測試</b>；從美術素材格式、前端技術選用、後端架構規劃，由我們進行實務上的專案進行，與企劃配合是否為公司所需求，制定出可實際執行的方案。
+                    </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 my-3 my-md-0">
+              <div class="testmonial-card">
+                  <h3 class="testmonial-title">前端</h3>
+                  <h6 class="testmonial-subtitle">Front end</h6>
+                  <div class="testmonial-body">
+                      <p
+                        style="
+                            text-align: left;
+                        "
+                      >
+                      根據公司需求開發團隊配合，依企劃開出功能需求，做出指定功能或效果，常用開發引擎都有接觸過，可多方面支援，也可以依需求做出不同系統開發(例如同一組後端API，可以開發出 Android、網頁版、Unity)。
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 my-3 my-md-0">
+              <div class="testmonial-card">
+                  <h3 class="testmonial-title">其他</h3>
+                  <h6 class="testmonial-subtitle">Other</h6>
+                  <div class="testmonial-body">
+                      <p
+                        style="
+                            text-align: left;
+                        "
+                      >
+                      根據工作需求，做出需求的工具或是腳本。自動測試機器人、NPC、爬蟲、流程模擬、批量圖浮水印...等工具，讓工作上流程能更加的順利。
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
 
 
   <div id="work" class="work-content">
     <div class="stepsmainblock" id="steps">
       <div class="wrap">
+
+        <!--
         <div class="dashtop"></div>
+        -->
         
         <h2 class=" py-5" 
           style="
@@ -113,35 +135,66 @@
           "
           >
           工作經歷
-            <small> simple <span class="gt"> 3 steps </span> to get earnings </small>
+            <small>
+              <span class="gt"> 9 ~ 10年 </span> 工作經驗
+            </small>
         </h2>
 
         <div class="stepsline">
           <div class="bigstepline"></div>
           <div class="bigsteplinecic1"></div>
           <div class="stepslinewrap">
-              <h3>Step #1: Make deposit</h3>
-              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                <h4>Get</h4>
-                We recommend to use: 
-                <b>TronLink</b> / <b>TronMask</b> 
-                browsers extensions, or 
-                <a href="#" target="_blank">TronWallet</a> / <a href="#" target="_blank">Banko</a> 
-                mobile apps.
-                <br>
-                You can get TRX coins via popular exchangers.
-                <a href="#" data-remodal-target="tron" class="maindescbut">
-                  How to get TRX
-                </a>
-              </div>
+              <h3
+                style="
+                    font-weight: 600;
+                "
+              >
+                工作室 
+                <span
+                    style="
+                        font-size: 12px;
+                    "
+                >
+                    2021/3 ~ 仍在職
+                </span>
+              </h3>
 
               <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                <h4>Send TRX to our smart-contract</h4>
-                Send any amount of TRX on smart-contract address and start to get earnings every moment. Minimal deposit amount is 
-                <b>300 USDT</b>
-                <a href="#" data-remodal-target="invest" class="maindescbut">Snap purchase package</a>
+                <h4>全端工程師</h4>
+                主要做系統開發和運營，以金融投資相關，功能需要大量的數據處理；與資訊的準確度與快速，系統執行穩定度。
+                <br/>
+                <br/>
+                開發環境，主要用AWS上的VPS(虛擬主機)，作業系統為Centos7並以RPC概念來串接多台VPS架設，達到客戶的需求，主要以<b>Python</b>語言，做數據和流程上的模擬， 並需在網路爬取解析有用可靠訊息。
+              </div>
+              
+              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                <h4>負責專案</h4>
+
+                <li>代收&代付金流系統 -<b>php維護</b>  </li>
+                <li>金流支付端 -<b>php前端</b>   </li>
+                <li>Bt礦機購買系統 -<b>django前端</b>  </li>
+                <li>cc投資系統 -<b>Vue前端</b>  </li>
+                <li>lynx錢包 -<b>Vue前端</b>   </li>
+                <li>量子 DAPP -<b>django前端</b>  </li>
+                <li>MT4 GAC -<b>Unity維護</b>  </li>
+
+                <hr/>
+                <li>簡訊偵測(自動上分) -<b>Android</b>  </li>
+                <li>簡訊偵測(簡訊驗證) -<b>Android</b>  </li>
+                <li>cc投資系統 -<b>Android</b>  </li>
+
+                <hr/>
+
+                <li>模擬金流流程 -<b>django</b>  </li>
+                <li>自動測試金流 -<b>Python Selenium</b>  </li>
+                <li>自動登入做指定測試 -<b>Python Selenium</b>  </li>
+                <li>台灣指數股票爬取 -<b>django</b>  </li>
+                <li>內部監控平台 -<b>django</b>  </li>
+                <li>共用第三方平台 (手機驗證、圖片驗證、Email驗證 .....) -<b>django</b>  </li>
+                <li>測試用會員資料建立 -<b>Python</b>  </li>
               </div>
           </div>
+
           <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
             <div class="icosteps2">
                 <!--
@@ -169,10 +222,75 @@
                     </a>
                 </form>
             </div>
+
             <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+
+                <h3
+                    style="
+                        font-weight: 600;
+                    "
+                >
+                    王族遊戲
+                    <span
+                        style="
+                            font-size: 12px;
+                        "
+                    >
+                        2018/4 ~ 2021/3
+                    </span>
+                </h3>
+
+                <div class="stepsblock fromLeftOut" 
+                    style="
+                        margin-left: 45px;
+                    "
+                    data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                    <h4> 前端遊戲 > 全端開發 </h4>
+
+                    1.傳統休閒博弈遊戲，寶馬188娛樂城H5遊戲的改版，主要針對歡樂捕魚達人與鬥地主。<br/>
+                    2.實體桌遊線上遊戲化，休閒博弈遊戲重置改寫。<br/>
+                    3.超雞娛樂城開發，加入C2C遊戲，對賭雞排機制，可到指定店家兌換雞排。<br/>
+                    4.跨域合作AR應用開發，女神娛樂城，主題式系列應用的開發。<br/>
+                    <br/>
+                    <br/>
+                    開發環境，主要用AWS上的VPS(虛擬主機)，作業系統為Centos7並以RPC概念來串接多台VPS架設。前端技術<b>Unity</b>和<b>Android</b>做為App應用開發，H5遊戲用<b>Cocos Creator</b>開發。
+                </div>
+                
+                <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                    <h4>負責專案</h4>
+
+                    <li>代收&代付金流系統 -<b>php維護</b>  </li>
+                    <li>金流支付端 -<b>php前端</b>   </li>
+                    <li>Bt礦機購買系統 -<b>django前端</b>  </li>
+                    <li>cc投資系統 -<b>Vue前端</b>  </li>
+                    <li>lynx錢包 -<b>Vue前端</b>   </li>
+                    <li>量子 DAPP -<b>django前端</b>  </li>
+                    <li>MT4 GAC -<b>Unity維護</b>  </li>
+
+                    <hr/>
+                    <li>簡訊偵測(自動上分) -<b>Android</b>  </li>
+                    <li>簡訊偵測(簡訊驗證) -<b>Android</b>  </li>
+                    <li>cc投資系統 -<b>Android</b>  </li>
+
+                    <hr/>
+
+                    <li>模擬金流流程 -<b>django</b>  </li>
+                    <li>自動測試金流 -<b>Python Selenium</b>  </li>
+                    <li>自動登入做指定測試 -<b>Python Selenium</b>  </li>
+                    <li>台灣指數股票爬取 -<b>django</b>  </li>
+                    <li>內部監控平台 -<b>django</b>  </li>
+                    <li>共用第三方平台 (手機驗證、圖片驗證、Email驗證 .....) -<b>django</b>  </li>
+                    <li>測試用會員資料建立 -<b>Python</b>  </li>
+                </div>
+
+
+                <!--
                 <h3>Step #2: Get earnings</h3>
+                -->
+
+                <!--
                 <div class="stepsblock stepsblockfull">
-                    <h4> Get your TRX every moment</h4>
+                    <h4> 前端遊戲 > 全端開發 </h4>
                     You can check all your wallet information, including your deposits, earnings, withdraw and referral statistics in real time.
                     <br><br>
                     <u>
@@ -185,6 +303,7 @@
                     </a>
 
                 </div>
+                -->
             </div>
         </div>
 
@@ -192,7 +311,7 @@
         <div class="stepsline">
           <div class="bigsteplinecic1"></div>
           <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-            <h3>Step #3: Request withdraw</h3>
+            <h3>傳奇遊戲</h3>
             <div class="stepsblock stepsblockfull2">
               <h4> Request TRX withdraw</h4>
               <i class="far fa-check-circle"></i>
@@ -226,6 +345,8 @@
 
 
   <!--  gallary Section  -->
+
+  <!--
   <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
       <h2 class="section-title">OUR MENU</h2>
   </div>
@@ -303,10 +424,11 @@
           </a>
       </div>
   </div>
+  -->
 
   <!-- BLOG Section  -->
   <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
-      <h2 class="section-title py-5">EVENTS AT THE FOOD HUT</h2>
+      <h2 class="section-title py-5">專案介紹</h2>
       <div class="row justify-content-center">
           <div class="col-sm-7 col-md-4 mb-5">
               <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
@@ -392,6 +514,7 @@
   </div>
 
   <!-- REVIEWS Section  -->
+  <!--
   <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
       <h2 class="section-title my-5 text-center">專案介紹</h2>
       <div class="row mt-3 mb-5">
@@ -424,6 +547,7 @@
           </div>
       </div>
   </div>
+  -->
 
   <!-- CONTACT Section  -->
   <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
@@ -747,7 +871,7 @@ export default {
     width: 100%;
     position: relative;
     box-sizing: border-box;
-    padding: 60px 0;
+    padding: 20px 0;
   }
 
   .wrap {
@@ -804,7 +928,7 @@ h4 {
 }
 
 .stepsblock b {
-    color: #02ba96;
+    color: #ff214f;
 }
 
 
@@ -815,7 +939,7 @@ h4 {
 
 
 .gt {
-    color: #02ba96;
+    color: #ff214f;
     vertical-align: baseline;
 }
 
@@ -834,7 +958,7 @@ h4 {
     left: 50%;
     margin-left: -1px;
     width: 3px;
-    height: 800px;
+    height: 1200px;
     background: url(../assets/work/dash2.png);
 }
 
@@ -874,7 +998,7 @@ h4 {
     text-decoration: none;
     line-height: 18px;
     font-weight: 300;
-    border-top: 5px solid #02ba96;
+    border-top: 5px solid #ff214f;
     text-shadow: 1px 1px 1px #333;
     transition: .3s;
     text-align: left;
