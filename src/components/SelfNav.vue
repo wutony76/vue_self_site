@@ -40,17 +40,27 @@
             </li>
 
 
-
+            <li class="nav-item">
+              <a 
+                v-if = "_type == 'home'"
+                class="nav-link" 
+                href="#work">
+                工作經歷
+              </a>
+            </li>
 
 
             <li class="nav-item">
               <a 
+                v-if = "_type != 'home'"
                 @click="go('home')"
                 class="nav-link" 
                 href="javascript:void(0)">
                 工作經歷
               </a>
             </li>
+
+
 
             <li class="nav-item">
               <a 

@@ -16,6 +16,8 @@ const routes = [
 
 
   /**  base */
+
+  /*
   {
     path:'/login',
     name:'Login',
@@ -54,6 +56,7 @@ const routes = [
       title: 'Lynx - 修改登入密碼'
     }
   },
+  */
 
   /*
   {
@@ -76,9 +79,29 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Resume'
+      title: 'Home'
     }
   },
+
+  {
+    path: '/about',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: 'Home'
+    }
+  },
+
+  {
+    path: '/work',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: 'Home'
+    }
+  },
+  
+
 
   {
     path: '/project',
@@ -112,14 +135,8 @@ const routes = [
   },
 
 
-  {
-    path: '/about',
-    name: 'About',
-    component:()=>import('../views/About.vue'),
-    meta: {
-      title: 'Lynx'
-    }
-  },
+  
+  
 
   {
     path: '/bind_phone',

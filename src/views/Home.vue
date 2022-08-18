@@ -196,31 +196,14 @@
           </div>
 
           <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-            <div class="icosteps2">
-                <!--
-                <img src="./css/icostep2.png" alt="">
-                -->
-                <img src="../assets/work/icostep5.png" alt="">
-            </div>
+						
           </div>
         </div>
-
 
         <div class="stepsline">
             <div class="bigsteplinecic1"></div>
             <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                <div class="icosteps2">
 
-                </div>
-                <form class="maincontform">
-                    <label>Your TRX wallet address:</label>
-
-                    <input type="text" class="trxWallet authTrue" value="Wallet address" style="display:block !important" readonly="">
-                    <input type="text" class="trxWallet authFalse" placeholder="Connect with your wallet app..." readonly="" style="display: none;">
-                    <a href="#" data-remodal-target="wallet" class="maindescbut">
-                        Check wallet statistics
-                    </a>
-                </form>
             </div>
 
             <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
@@ -249,7 +232,7 @@
 
                     1.傳統休閒博弈遊戲，寶馬188娛樂城H5遊戲的改版，主要針對歡樂捕魚達人與鬥地主。<br/>
                     2.實體桌遊線上遊戲化，休閒博弈遊戲重置改寫。<br/>
-                    3.超雞娛樂城開發，加入C2C遊戲，對賭雞排機制，可到指定店家兌換雞排。<br/>
+                    3.超激娛樂城開發，加入C2C遊戲，對賭雞排機制，可到指定店家兌換雞排。<br/>
                     4.跨域合作AR應用開發，女神娛樂城，主題式系列應用的開發。<br/>
                     <br/>
                     <br/>
@@ -259,28 +242,31 @@
                 <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
                     <h4>負責專案</h4>
 
-                    <li>代收&代付金流系統 -<b>php維護</b>  </li>
-                    <li>金流支付端 -<b>php前端</b>   </li>
-                    <li>Bt礦機購買系統 -<b>django前端</b>  </li>
-                    <li>cc投資系統 -<b>Vue前端</b>  </li>
-                    <li>lynx錢包 -<b>Vue前端</b>   </li>
-                    <li>量子 DAPP -<b>django前端</b>  </li>
-                    <li>MT4 GAC -<b>Unity維護</b>  </li>
 
+                    <li>Ace女神娛樂城-<b>django</b></li>
+                    <li>Ace女神娛樂城 -商城-<b>Python</b></li>
+                    <li>API黑馬金流串接 Mycard、信用卡、ATM轉帳-<b>Python</b></li>
+                    <li>API簡訊串接-<b>Python</b></li>
+                    <li>API人人棋牌遊戲串接-<b>Python</b></li>
                     <hr/>
-                    <li>簡訊偵測(自動上分) -<b>Android</b>  </li>
-                    <li>簡訊偵測(簡訊驗證) -<b>Android</b>  </li>
-                    <li>cc投資系統 -<b>Android</b>  </li>
-
+                    <li>虛擬佛像-<b>UnityAR</b></li>
+                    <li>歡樂捕魚-<b>UnityAR</b></li>
+                    <li>TRE虛擬攝影棚-<b>UnityAR</b></li>
                     <hr/>
 
-                    <li>模擬金流流程 -<b>django</b>  </li>
-                    <li>自動測試金流 -<b>Python Selenium</b>  </li>
-                    <li>自動登入做指定測試 -<b>Python Selenium</b>  </li>
-                    <li>台灣指數股票爬取 -<b>django</b>  </li>
-                    <li>內部監控平台 -<b>django</b>  </li>
-                    <li>共用第三方平台 (手機驗證、圖片驗證、Email驗證 .....) -<b>django</b>  </li>
-                    <li>測試用會員資料建立 -<b>Python</b>  </li>
+                    <li>女優養成-心動時刻-<b>Creator</b></li>
+                    <li>女優SLOT遊戲模組-<b>Creator</b></li>
+                    <li>刮刮樂遊戲模組-<b>Creator</b></li>
+                    <li>德州撲克-<b>Creator</b></li>
+                    <li>鬥地主-<b>Creator</b></li>
+                    <li>跑得快-<b>Creator</b></li>
+                    <li>百家樂-<b>Creator</b></li>
+                    <li>龍虎-<b>Creator</b></li>
+                    <li>小瑪莉-<b>Creator</b></li>
+                    <li>終極密碼-<b>Creator</b></li>
+                    <li>吹牛骰盅-<b>Creator</b></li>
+                    <li>超雞對決大廳-<b>Creator</b></li>
+                    <li>AR舞台螢幕端-<b>Creator</b></li>
                 </div>
 
 
@@ -307,30 +293,149 @@
             </div>
         </div>
 
+        <div class="stepsline">
+          <div class="bigsteplinecic1"></div>
+          <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+            <h3>傳奇遊戲
+							<span
+								style="
+										font-size: 12px;
+								"
+							>
+								2014/7 ~ 2018/4
+							</span>
+						</h3>
+            <div class="stepsblock stepsblockfull" 
+            style="
+							margin-left: -5px;
+            ">
+              <h4> 3D美術 </h4>
+							依2D設定圖，製做出限定面數3D模型，參與拉普拉斯的神子、星界王冠、精靈樂章、時空契約‧‧‧等專案的3D物件製作。
+							<li>3D模型建模+UV+貼圖</li>
+							<li>3D減面</li>
+							<li>3D貼圖重製</li>
+							<li>2DICON、UI</li>
+							<li>分色</li>
+            </div>
+          </div>
+          <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+
+          </div>
+        </div>
+
+				<!--自我精進-->
+				<div class="stepsline">
+            <div class="bigsteplinecic1"></div>
+            <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+
+            </div>
+
+            <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                <h3>自我精進
+								<span
+									style="
+											font-size: 12px;
+									"
+								>
+									2013/4 ~ 2014/5
+								</span>
+								</h3>
+
+                <div class="stepsblock stepsblockfull">
+									<h4> 規劃未來方向 </h4>
+									在補習班學習整體的專案製作與開發過程，並完成2D、3D作品集。
+									<li>Android App TheHero橫軸RPG</li>
+									<li>The Tank 3d遊戲</li>
+									<li>致理技術學院電子書 App</li>
+									<li>經緯儀操作概念模擬</li>
+
+                </div>
+            </div>
+        </div>
+
+				<!--銓鋐數碼資訊-->
+        <div class="stepsline">
+          <div class="bigsteplinecic1"></div>
+          <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+            <h3>銓鋐數碼資訊
+							<span
+								style="
+										font-size: 12px;
+								"
+							>
+								2012/6 ~ 2013/2
+							</span>
+						</h3>
+            <div class="stepsblock stepsblockfull" 
+            style="
+							margin-left: -5px;
+            ">
+              <h4> Android開發 </h4>
+							銓鋐數碼資訊是一家傳統的電視台公司，應該是想跨域做數位行銷，因此新創部門數位開發部。
+							<li>Yaobah</li>
+							<li>暗棋</li>
+							<li>Share Apps</li>
+            </div>
+          </div>
+          <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+
+          </div>
+        </div>
+
+				<div class="stepsline">
+            <div class="bigsteplinecic1"></div>
+            <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+
+            </div>
+
+            <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                <h3> BigplanDesign工作室
+								<span
+									style="
+											font-size: 12px;
+									"
+								>
+									2011/8 ~ 2012/6
+								</span>
+								</h3>
+
+                <div class="stepsblock stepsblockfull">
+									<h4> 網頁設計 </h4>
+									各類型客製化網頁製作，系統維護
+									<li>FunLearn網站的維護(Discord)</li>
+									<li>svg小畫家的功能開發(畫矩形工具)</li>
+									<li>MiniLover購物官網的前端動態廣告展示</li>
+									<li>台大奈米卡牌系列Flash遊戲</li>
+									<li>致理技術學院運健系</li>
+									<li>新北市欣倫幼兒園官網</li>
+                </div>
+            </div>
+        </div>
 
         <div class="stepsline">
           <div class="bigsteplinecic1"></div>
           <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-            <h3>傳奇遊戲</h3>
-            <div class="stepsblock stepsblockfull2">
-              <h4> Request TRX withdraw</h4>
-              <i class="far fa-check-circle"></i>
-              Your payout will come
-              <b>instantly</b>
-              <br><br>
-              <i class="far fa-check-circle"></i>
-              Request withdraw from the
-              <b>same wallet</b>
-              you deposited
-              <br><br>
-              <i class="far fa-check-circle"></i>
-              All your wallet deposits and referral earnings will be withdrawn with single transaction per 1 request
+            <h3>學生時期
+							<span
+								style="
+										font-size: 12px;
+								"
+							>
+								2007/7 ~ 2010/2
+							</span>
+						</h3>
+            <div class="stepsblock stepsblockfull" 
+            style="
+							margin-left: -5px;
+            ">
+
+              <li> 致理學生學習歷程檔案網站 </li>
+							<li> 決戰1951(戰機遊戲) </li>
+							<li> FLASH互動程式研究生論文 </li>
             </div>
           </div>
           <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-              <div class="icosteps2">
-                  <img src="../assets/work/icostep5.png" alt="">
-              </div>
+
           </div>
         </div>
 
@@ -429,6 +534,8 @@
   <!-- BLOG Section  -->
   <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
       <h2 class="section-title py-5">專案介紹</h2>
+
+			<!--
       <div class="row justify-content-center">
           <div class="col-sm-7 col-md-4 mb-5">
               <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
@@ -441,41 +548,71 @@
               </ul>
           </div>
       </div>
+			-->
+
       <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="row">
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
-                              <h4 class="pt20 pb20">Reiciendis Laborum </h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
-                              <h4 class="pt20 pb20">Adipisci Totam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
-                              <h4 class="pt20 pb20">Dicta Deserunt</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
+
+								<div class="col-md-4">
+										<div class="card bg-transparent border my-3 my-md-0">
+												<img src="../assets/resume/happy_fish.jpg" class="rounded-0 card-img-top mg-responsive">
+												<div class="card-body">
+													<!--
+														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
+														-->
+
+														<h4 class="pt20 pb20"> 3D歡樂捕魚 
+															<span class="badge badge-primary" >
+																AR
+															</span>
+														</h4>
+														<p class="text-white">3D歡樂捕魚，結合AR經由不同辨識圖進入不同漁場，與好友一同捕捉稀有魚種吧!</p>
+												</div>
+										</div>
+								</div>
+
+								<div class="col-md-4">
+										<div class="card bg-transparent border my-3 my-md-0">
+												<img src="../assets/resume/1618211143346.jpg" 
+												class="rounded-0 card-img-top mg-responsive">
+												<div class="card-body">
+
+													<!-- 
+														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
+														-->
+														<h4 class="pt20 pb20">虛擬攝影棚
+															<span class="badge badge-primary" >
+																AR
+															</span></h4>
+														<p class="text-white">
+															和自己心儀的女孩，紀錄心動的一瞬間，擁有自己專屬的影片。</p>
+												</div>
+										</div>
+								</div>
+
+								<div class="col-md-4">
+										<div class="card bg-transparent border my-3 my-md-0">
+												<img src="../assets/resume/messageImage_1614656930650.jpg" class="rounded-0 card-img-top mg-responsive">
+												<div class="card-body">
+													<!--
+														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+														-->
+														<h4 class="pt20 pb20">刮刮樂
+															<span class="badge badge-primary" >
+																休閒
+															</span></h4>
+														<p class="text-white">
+															花50元買一張刮刮樂，就可以擁有一夜致富得機會。
+														</p>
+												</div>
+										</div>
+								</div>
+
               </div>
           </div>
+
+					<!--
           <div class="tab-pane fade" id="juices" role="tabpanel" aria-labelledby="pills-profile-tab">
               <div class="row">
                   <div class="col-md-4 my-3 my-md-0">
@@ -510,6 +647,7 @@
                   </div>
               </div>
           </div>
+					-->
       </div>
   </div>
 
@@ -579,11 +717,15 @@
                   <p><span class="ti-location-pin pr-3"></span> 12345 Fake ST NoWhere, AB Country</p>
                   <p><span class="ti-support pr-3"></span> (886) 910987324</p>
                   -->
-                  <p><span class="ti-facebook pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-email pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-desktop pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-cloud pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-github pr-3"></span>wuotny76@gmail.com</p>
+									<p><span class="ti-email pr-3"></span>wuotny76@gmail.com</p>
+									<p><span class="ti-desktop pr-3"></span>https://www.linkedin.com/in/%E6%9D%B1%E9%9C%96-%E5%90%B3-60838715b/</p>
+									<p><span class="ti-desktop pr-3"></span>https://pda.104.com.tw/profile/share/dgtwGvOpFcaAzltvK5ioMb0zH6GDHJlp</p>
+
+                  <p><span class="ti-facebook pr-3"></span>https://www.facebook.com/wutony76/</p>
+                  
+                  <p><span class="ti-cloud pr-3"></span>https://drive.google.com/drive/u/1/folders/1AHUNfBenimX7Rl5TTx-T39BcR1rTahud</p>
+
+                  <p><span class="ti-github pr-3"></span>https://github.com/wutony76</p>
 
               </div>
           </div>
@@ -954,12 +1096,14 @@ h4 {
 
 .bigstepline {
     position: absolute;
-    top: 165px;
+    top: -80px;
     left: 50%;
     margin-left: -1px;
     width: 3px;
-    height: 1200px;
+    height: 3000px;
     background: url(../assets/work/dash2.png);
+
+		
 }
 
 .bigsteplinecic1 {
