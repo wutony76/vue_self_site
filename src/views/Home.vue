@@ -6,6 +6,11 @@
   >
   </Nav>
 
+
+	<canvas id="defaultCanvas0" class="p5Canvas" width="2788" height="0" style="width: 1394px; height: 0px;"></canvas>
+
+
+
   <!-- header -->
   <header id="home" class="header">
     <div class="overlay text-white text-center">
@@ -140,34 +145,24 @@
             </small>
         </h2>
 
+
+				<!-- 工作室2 -->
         <div class="stepsline">
-          <div class="bigstepline"></div>
-          <div class="bigsteplinecic1"></div>
           <div class="stepslinewrap">
-              <h3
-                style="
-                    font-weight: 600;
-                "
-              >
+              <h3 style="font-weight: 600;">
                 工作室 
-                <span
-                    style="
-                        font-size: 12px;
-                    "
-                >
-                    2021/3 ~ 仍在職
-                </span>
+                <span	style="font-size: 12px;">2021/3 ~ 仍在職</span>
               </h3>
 
-              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+              <div class="stepsblock stepsblockfull" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
                 <h4>全端工程師</h4>
-                主要做系統開發和運營，以金融投資相關，功能需要大量的數據處理；與資訊的準確度與快速，系統執行穩定度。
+                主要做系統開發和運營，以金融投資相關，功能需要大量的數據處理；與資訊的準確度與快速，系統執行穩定度。另有架設遊戲私服(再開發)、購物網站、形象官網、Dapp…等其他專案。
                 <br/>
                 <br/>
                 開發環境，主要用AWS上的VPS(虛擬主機)，作業系統為Centos7並以RPC概念來串接多台VPS架設，達到客戶的需求，主要以<b>Python</b>語言，做數據和流程上的模擬， 並需在網路爬取解析有用可靠訊息。
               </div>
               
-              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)" style="margin-left:45px;">
                 <h4>負責專案</h4>
 
                 <li>代收&代付金流系統 -<b>php維護</b>  </li>
@@ -193,6 +188,26 @@
                 <li>共用第三方平台 (手機驗證、圖片驗證、Email驗證 .....) -<b>django</b>  </li>
                 <li>測試用會員資料建立 -<b>Python</b>  </li>
               </div>
+
+							<div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                <h4>技術需求</h4>
+
+                <li> HTML </li>
+                <li> CSS  </li>
+                <li> JQuery </li>
+								<li> Vue </li>
+                <li> Django </li>
+                <li> python </li>
+								<li> Android </li>
+								<li> Unity </li>
+								<li> AWS </li>
+								<li> Linux(Centos7) </li>
+
+								<h4 style="margin-top: 50px;">工作比重</h4>
+								<li> 前端50% </li>
+								<li> 後端50%  </li>
+								
+              </div>
           </div>
 
           <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
@@ -200,30 +215,23 @@
           </div>
         </div>
 
+				<!-- 王族遊戲 -->
         <div class="stepsline">
-            <div class="bigsteplinecic1"></div>
+            
             <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
 
             </div>
 
             <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
 
-                <h3
-                    style="
-                        font-weight: 600;
-                    "
-                >
-                    王族遊戲
-                    <span
-                        style="
-                            font-size: 12px;
-                        "
-                    >
-                        2018/4 ~ 2021/3
-                    </span>
+                <h3 style="font-weight: 600;">
+									王族遊戲
+									<span style="font-size: 12px;">
+										2018/4 ~ 2021/3
+									</span>
                 </h3>
 
-                <div class="stepsblock fromLeftOut" 
+                <div class="stepsblock stepsblockfull" 
                     style="
                         margin-left: 45px;
                     "
@@ -239,7 +247,7 @@
                     開發環境，主要用AWS上的VPS(虛擬主機)，作業系統為Centos7並以RPC概念來串接多台VPS架設。前端技術<b>Unity</b>和<b>Android</b>做為App應用開發，H5遊戲用<b>Cocos Creator</b>開發。
                 </div>
                 
-                <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)"  style="margin-left: 45px;">
                     <h4>負責專案</h4>
 
 
@@ -269,6 +277,25 @@
                     <li>AR舞台螢幕端-<b>Creator</b></li>
                 </div>
 
+								<div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+									<h4>技術需求</h4>
+
+									<li> Javascript </li>
+									<li> Django </li>
+									<li> python </li>
+									<li> Android </li>
+									<li> IOS </li>
+									<li> Unity </li>
+									<li> Cocos creator </li>
+									<li> AWS </li>
+									<li> Linux(Centos7) </li>
+
+									<h4 style="margin-top: 50px;">工作比重</h4>
+									<li> 前端80% </li>
+									<li> 後端20%  </li>
+
+								</div>
+
 
                 <!--
                 <h3>Step #2: Get earnings</h3>
@@ -293,24 +320,23 @@
             </div>
         </div>
 
+				<!-- 傳奇遊戲 -->
         <div class="stepsline">
-          <div class="bigsteplinecic1"></div>
+          
           <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
             <h3>傳奇遊戲
-							<span
-								style="
-										font-size: 12px;
-								"
-							>
+							<span style="font-size: 12px;">
 								2014/7 ~ 2018/4
 							</span>
 						</h3>
             <div class="stepsblock stepsblockfull" 
             style="
-							margin-left: -5px;
+							
             ">
               <h4> 3D美術 </h4>
-							依2D設定圖，製做出限定面數3D模型，參與拉普拉斯的神子、星界王冠、精靈樂章、時空契約‧‧‧等專案的3D物件製作。
+							依2D設定圖，製做出限定面數3D模型，參與拉普拉斯的神子、星界王冠、精靈樂章、時空契約‧‧‧等專案的3D物件製作。公司非常非常注重3D模型的品質，新人時期一組小物件常常重畫超過10次以上，在這邊會要求自己更加的細心和觀察，慢慢減少重畫與修改次數。
+							<br/>
+							<br/>
 							<li>3D模型建模+UV+貼圖</li>
 							<li>3D減面</li>
 							<li>3D貼圖重製</li>
@@ -325,7 +351,7 @@
 
 				<!--自我精進-->
 				<div class="stepsline">
-            <div class="bigsteplinecic1"></div>
+            
             <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
 
             </div>
@@ -344,6 +370,9 @@
                 <div class="stepsblock stepsblockfull">
 									<h4> 規劃未來方向 </h4>
 									在補習班學習整體的專案製作與開發過程，並完成2D、3D作品集。
+
+									<br/>
+									<br/>
 									<li>Android App TheHero橫軸RPG</li>
 									<li>The Tank 3d遊戲</li>
 									<li>致理技術學院電子書 App</li>
@@ -355,7 +384,7 @@
 
 				<!--銓鋐數碼資訊-->
         <div class="stepsline">
-          <div class="bigsteplinecic1"></div>
+          
           <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
             <h3>銓鋐數碼資訊
 							<span
@@ -368,10 +397,11 @@
 						</h3>
             <div class="stepsblock stepsblockfull" 
             style="
-							margin-left: -5px;
             ">
               <h4> Android開發 </h4>
 							銓鋐數碼資訊是一家傳統的電視台公司，應該是想跨域做數位行銷，因此新創部門數位開發部。
+								<br/>
+								<br/>
 							<li>Yaobah</li>
 							<li>暗棋</li>
 							<li>Share Apps</li>
@@ -383,7 +413,7 @@
         </div>
 
 				<div class="stepsline">
-            <div class="bigsteplinecic1"></div>
+            
             <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
 
             </div>
@@ -402,6 +432,8 @@
                 <div class="stepsblock stepsblockfull">
 									<h4> 網頁設計 </h4>
 									各類型客製化網頁製作，系統維護
+									<br/>
+									<br/>
 									<li>FunLearn網站的維護(Discord)</li>
 									<li>svg小畫家的功能開發(畫矩形工具)</li>
 									<li>MiniLover購物官網的前端動態廣告展示</li>
@@ -413,25 +445,26 @@
         </div>
 
         <div class="stepsline">
-          <div class="bigsteplinecic1"></div>
           <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
             <h3>學生時期
 							<span
-								style="
-										font-size: 12px;
-								"
+								style="font-size: 12px;"
 							>
 								2007/7 ~ 2010/2
 							</span>
 						</h3>
-            <div class="stepsblock stepsblockfull" 
-            style="
-							margin-left: -5px;
-            ">
 
+            <div class="stepsblock stepsblockfull" 
+							style="
+							">
+							大學時期，社團認識了學長開始到學校打工(寫程式)，初步接觸自由和開放原始碼Linux、python、django、blender...等，免費的自由和開放原始碼工具，對往後的技術開發帶來很多的便利，並節省了很多我們學習的成本。
+
+							<br/>
+							<br/>
               <li> 致理學生學習歷程檔案網站 </li>
 							<li> 決戰1951(戰機遊戲) </li>
 							<li> FLASH互動程式研究生論文 </li>
+							<li> FunLearn網站的維護(Discord)</li>
             </div>
           </div>
           <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
@@ -554,60 +587,66 @@
           <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="row">
 
-								<div class="col-md-4">
-										<div class="card bg-transparent border my-3 my-md-0">
-												<img src="../assets/resume/happy_fish.jpg" class="rounded-0 card-img-top mg-responsive">
-												<div class="card-body">
-													<!--
+                <div class="col-md-4">
+									<div 
+										@click="project_info(1)"
+										class="card bg-transparent border my-3 my-md-0">
+										<img src="../assets/resume/happy_fish.jpg" class="rounded-0 card-img-top mg-responsive">
+										<div class="card-body">
+												<!--
 														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
 														-->
 
-														<h4 class="pt20 pb20"> 3D歡樂捕魚 
-															<span class="badge badge-primary" >
-																AR
-															</span>
-														</h4>
-														<p class="text-white">3D歡樂捕魚，結合AR經由不同辨識圖進入不同漁場，與好友一同捕捉稀有魚種吧!</p>
-												</div>
+											<h4 class="pt20 pb20"> 3D歡樂捕魚 
+													<span class="badge badge-primary" >
+															AR
+													</span>
+											</h4>
+											<p class="text-white">3D歡樂捕魚，結合AR經由不同辨識圖進入不同漁場，與好友一同捕捉稀有魚種吧!</p>
+
 										</div>
-								</div>
+									</div>
+                </div>
 
-								<div class="col-md-4">
-										<div class="card bg-transparent border my-3 my-md-0">
-												<img src="../assets/resume/1618211143346.jpg" 
-												class="rounded-0 card-img-top mg-responsive">
-												<div class="card-body">
-
-													<!-- 
+                <div class="col-md-4">
+									<div 
+										@click="project_info(2)"
+										class="card bg-transparent border my-3 my-md-0">
+											<img src="../assets/resume/1618211143346.jpg" 
+											class="rounded-0 card-img-top mg-responsive">
+											<div class="card-body">
+												<!-- 
 														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
 														-->
-														<h4 class="pt20 pb20">虛擬攝影棚
-															<span class="badge badge-primary" >
+												<h4 class="pt20 pb20">虛擬攝影棚
+														<span class="badge badge-primary" >
 																AR
-															</span></h4>
-														<p class="text-white">
-															和自己心儀的女孩，紀錄心動的一瞬間，擁有自己專屬的影片。</p>
-												</div>
-										</div>
-								</div>
+														</span></h4>
+												<p class="text-white">
+														和自己心儀的女孩，紀錄心動的一瞬間，擁有自己專屬的影片。</p>
+											</div>
+									</div>
+                </div>
 
-								<div class="col-md-4">
-										<div class="card bg-transparent border my-3 my-md-0">
-												<img src="../assets/resume/messageImage_1614656930650.jpg" class="rounded-0 card-img-top mg-responsive">
-												<div class="card-body">
-													<!--
+                <div class="col-md-4">
+									<div 
+										@click="project_info(3)"
+										class="card bg-transparent border my-3 my-md-0">
+										<img src="../assets/resume/messageImage_1614656930650.jpg" class="rounded-0 card-img-top mg-responsive">
+										<div class="card-body">
+												<!--
 														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
 														-->
-														<h4 class="pt20 pb20">刮刮樂
-															<span class="badge badge-primary" >
-																休閒
-															</span></h4>
-														<p class="text-white">
-															花50元買一張刮刮樂，就可以擁有一夜致富得機會。
-														</p>
-												</div>
+											<h4 class="pt20 pb20">刮刮樂
+													<span class="badge badge-primary" >
+															休閒
+													</span></h4>
+											<p class="text-white">
+													花50元買一張刮刮樂，就可以擁有一夜致富得機會。
+											</p>
 										</div>
-								</div>
+									</div>
+                </div>
 
               </div>
           </div>
@@ -688,56 +727,9 @@
   -->
 
   <!-- CONTACT Section  -->
-  <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
-      <div class="row">
-          <!--
-          <div class="col-md-6 px-0">
-              <div id="map" style="width: 100%; height: 100%; min-height: 400px"></div>
-          </div>
-          -->
-          <div class="col-md-12 px-5 has-height-lg middle-items"
-            style="
-              min-height: 350px;
-            ">
-            
-              <h5 
-                style="
-                width:auto;
-            
-                ">
-                其他資訊 | Information
-              </h5>
-              <p></p>
-              <!--
-              <p>Information</p>
-              -->
-            
-              <div class="text-muted">
-                  <!--
-                  <p><span class="ti-location-pin pr-3"></span> 12345 Fake ST NoWhere, AB Country</p>
-                  <p><span class="ti-support pr-3"></span> (886) 910987324</p>
-                  -->
-									<p><span class="ti-email pr-3"></span>wuotny76@gmail.com</p>
-									<p><span class="ti-desktop pr-3"></span>https://www.linkedin.com/in/%E6%9D%B1%E9%9C%96-%E5%90%B3-60838715b/</p>
-									<p><span class="ti-desktop pr-3"></span>https://pda.104.com.tw/profile/share/dgtwGvOpFcaAzltvK5ioMb0zH6GDHJlp</p>
-
-                  <p><span class="ti-facebook pr-3"></span>https://www.facebook.com/wutony76/</p>
-                  
-                  <p><span class="ti-cloud pr-3"></span>https://drive.google.com/drive/u/1/folders/1AHUNfBenimX7Rl5TTx-T39BcR1rTahud</p>
-
-                  <p><span class="ti-github pr-3"></span>https://github.com/wutony76</p>
-
-              </div>
-          </div>
-      </div>
-  </div>
+	<Contact></Contact>
 
 
-
-  
-
-  
-  
   <!--
     <login-header show_h5="1"></login-header>
 
@@ -863,16 +855,14 @@
 //import Notification from "@/components/Notification.vue";
 
 import Nav from "@/components/SelfNav.vue";
-import Cookies from 'js-cookie'
-//import { apiUserInfo, apiTotal } from "@/api/api";
+import Contact from "@/components/SelfContact.vue";
+//import Cookies from 'js-cookie'
 
 export default {
   name: "Home",
   components: {
-    Nav,
-    //BottomButton,
-    //LoginHeader,
- //   Notification,
+		Nav,
+		Contact,
   },
 
 
@@ -900,26 +890,21 @@ export default {
 
   mounted() {
     this.$nextTick(() => {
-      this.get_user_info();
-      this.get_user_items();
+      //this.get_user_info();
+      //this.get_user_items();
     });
   },
 
 
   methods: {
-
+    /*
     get_user_info() {
-
       let btn_name = Cookies.get('bottonStr');
       console.log("btn_name->" + btn_name);
       if ( btn_name != "home" ){
         Cookies.set('bottonStr', "home");
         this.refresh_ui();
       }
-
-      
-
-      //
       console.log("this->" + this);
       var self = this;
 
@@ -927,69 +912,32 @@ export default {
         console.log("Home get_user_info res=" + JSON.stringify(res));
         self.my_usdt = res.data.my_usdt;
         self.my_usdt_to_nt = res.data.my_usdt_to_nt;
-        //console.log( typeof res.status);
-
-        /*
-
-        if (res.code == 0) {
-          //console.log("ttt1");
-          //console.log(res.data.basic_trx);
-
-          self.my_total = res.data.total_credit;
-
-          self.user_wallet = res.data.basic_trx;
-          self.user_wallet_total = res.data.basic_trx_total;
-
-          self.user_promotion = res.data.promotion_trx;
-          self.user_promotion_total = res.data.promotion_trx_total;
-
-        } else {
-          self.$layer.msg(self.$t("login.loginError"));
-        }
-        */
-
       });
     },
-
-
     get_user_items() {
       var self = this;
       this.$mixapi.call("user/get_items", {}, function(res) {
         if (res.code == 0) {
           self.user_items = res.data.items;
-        } 
-
+        }
       });
     },
-
     go_bank(){
       this.$router.push('/wallet_item');
-      /*
-      var self = this;
-      this.$mixapi.call("user/get_items", {}, function(res) {
-        if (res.code == 0) {
-          self.user_items = res.data.items;
-        } 
-
-      });
-      */
-
-
     },
-    
-
-
-  
     logout(){  
       Cookies.remove('access_token');
       this.$router.push('/login');//返回上一层
     },
-
-
     refresh_ui(){
       this.refresh_key +=1;
-    }
-  
+    },
+    */
+
+
+    project_info(id) {
+      this.$router.push({ path: "/project", query: { q: id } });
+    },
 
   },
 };
@@ -1118,7 +1066,7 @@ h4 {
 }
 
 .stepslinewrap {
-    width: 50%;
+    width: 100%;
 }
 
 .fromLeftIn {
@@ -1134,7 +1082,7 @@ h4 {
 }
 
 .stepsblock {
-    display: inline-block;
+    display: inline-table;
     width: calc(50% - 45px);
     margin: 20px 15px;
     padding: 20px;

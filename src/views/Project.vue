@@ -1,658 +1,589 @@
 <template>
-
-  
-  
 <main class="commonbg main has-footer">
-  <Nav></Nav>
 
-  <!-- header -->
-  <header id="home" class="header">
-    <div class="overlay text-white text-center">
-      <h1 class="display-2 font-weight-bold my-3"> 吳東霖 </h1>
-      <!--
-      <h2 class="display-4 mb-5"> 工作經歷 &amp; 專案展示 </h2>
-      -->
-      <h2 class="display-4 mb-5"> Unity應用 &amp; 遊戲開發 </h2>
-      <a class="btn btn-lg btn-primary" href="#gallary">工作經歷</a>
-    </div>
-  </header>
+  <Nav
+    :_type = "view_type"
+  >
+  </Nav>
 
-  <!--  About Section  -->
-  <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
-    <div class="row">
-      <div class="col-lg-6 has-img-bg"></div>
-      <div class="col-lg-6">
-        <div class="row justify-content-center">
-          <div class="col-sm-8 py-5 my-5">
-            <h2 class="mb-4"> 自傳 </h2>
+  <!-- status 0  -->
+  <div 
+    v-if = "status == 0 "
+    id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
+    <h2 class="section-title py-5">專案介紹</h2>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum, 
-              <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum? 
-              <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.
-            </p>
-            <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.</b></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  
-  <div id="work" class="work-content">
-
-    <div class="stepsmainblock" id="steps">
-        <div class="wrap">
-            <div class="dashtop"></div>
-            <h2>
-                How to work with platform
-                <small> simple <span class="gt"> 3 steps </span> to get earnings </small>
-            </h2>
-
-            <div class="stepsline">
-              <div class="bigstepline"></div>
-              <div class="bigsteplinecic1"></div>
-              <div class="stepslinewrap">
-                  <h3>Step #1: Make deposit</h3>
-                  <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                    <h4>Get</h4>
-                    We recommend to use: 
-                    <b>TronLink</b> / <b>TronMask</b> 
-                    browsers extensions, or 
-                    <a href="#" target="_blank">TronWallet</a> / <a href="#" target="_blank">Banko</a> 
-                    mobile apps.
-                    <br>
-                    You can get TRX coins via popular exchangers.
-                    <a href="#" data-remodal-target="tron" class="maindescbut">
-                      How to get TRX
-                    </a>
-                  </div>
-
-                  <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                    <h4>Send TRX to our smart-contract</h4>
-                    Send any amount of TRX on smart-contract address and start to get earnings every moment. Minimal deposit amount is 
-                    <b>300 USDT</b>
-                    <a href="#" data-remodal-target="invest" class="maindescbut">Snap purchase package</a>
-                  </div>
-              </div>
-              <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                <div class="icosteps2">
-                    <!--
-                    <img src="./css/icostep2.png" alt="">
-                    -->
-                    <img src="../assets/work/icostep5.png" alt="">
-                </div>
-              </div>
-            </div>
-
-
-            <div class="stepsline">
-                <div class="bigsteplinecic1"></div>
-                <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                    <div class="icosteps2">
-
-                    </div>
-                    <form class="maincontform">
-                        <label>Your TRX wallet address:</label>
-
-                        <input type="text" class="trxWallet authTrue" value="Wallet address" style="display:block !important" readonly="">
-                        <input type="text" class="trxWallet authFalse" placeholder="Connect with your wallet app..." readonly="" style="display: none;">
-                        <a href="#" data-remodal-target="wallet" class="maindescbut">
-                            Check wallet statistics
-                        </a>
-                    </form>
-                </div>
-                <div class="stepslinewrap stepslinewrapright fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                    <h3>Step #2: Get earnings</h3>
-                    <div class="stepsblock stepsblockfull">
-                        <h4> Get your TRX every moment</h4>
-                        You can check all your wallet information, including your deposits, earnings, withdraw and referral statistics in real time.
-                        <br><br>
-                        <u>
-                            Additional earnings with referral program:
-                        </u>
-                        <br>
-                        3 levels of affiliate rewards: 
-                        <a href="#" data-remodal-target="wallet" class="maindescbut">
-                            Your wallet statistics
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="stepsline">
-              <div class="bigsteplinecic1"></div>
-              <div class="stepslinewrap fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                <h3>Step #3: Request withdraw</h3>
-                <div class="stepsblock stepsblockfull2">
-                  <h4> Request TRX withdraw</h4>
-                  <i class="far fa-check-circle"></i>
-                  Your payout will come
-                  <b>instantly</b>
-                  <br><br>
-                  <i class="far fa-check-circle"></i>
-                  Request withdraw from the
-                  <b>same wallet</b>
-                  you deposited
-                  <br><br>
-                  <i class="far fa-check-circle"></i>
-                  All your wallet deposits and referral earnings will be withdrawn with single transaction per 1 request
-                </div>
-              </div>
-              <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-                  <div class="icosteps2">
-                      <img src="../assets/work/icostep5.png" alt="">
-                  </div>
-              </div>
-            </div>
-
-        </div>
-    </div>
-  </div>
-
-
-  
-
-
-  <!--  gallary Section  -->
-  <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
-      <h2 class="section-title">OUR MENU</h2>
-  </div>
-  <div class="gallary row">
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-  </div>
-
-  <!-- BLOG Section  -->
-  <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
-      <h2 class="section-title py-5">EVENTS AT THE FOOD HUT</h2>
-      <div class="row justify-content-center">
-          <div class="col-sm-7 col-md-4 mb-5">
-              <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
-                  <li class="nav-item">
-                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#foods" role="tab" aria-controls="pills-home" aria-selected="true">Foods</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#juices" role="tab" aria-controls="pills-profile" aria-selected="false">Juices</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-      <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
-                              <h4 class="pt20 pb20">Reiciendis Laborum </h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
-                              <h4 class="pt20 pb20">Adipisci Totam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card bg-transparent border my-3 my-md-0">
-                          <img src="assets/imgs/blog-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
-                              <h4 class="pt20 pb20">Dicta Deserunt</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="tab-pane fade" id="juices" role="tabpanel" aria-labelledby="pills-profile-tab">
-              <div class="row">
-                  <div class="col-md-4 my-3 my-md-0">
-                      <div class="card bg-transparent border">
-                          <img src="assets/imgs/blog-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$15</a></h1>
-                              <h4 class="pt20 pb20">Consectetur Adipisicing Elit</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 my-3 my-md-0">
-                      <div class="card bg-transparent border">
-                          <img src="assets/imgs/blog-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$29</a></h1>
-                              <h4 class="pt20 pb20">Ullam Laboriosam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 my-3 my-md-0">
-                      <div class="card bg-transparent border">
-                          <img src="assets/imgs/blog-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
-                          <div class="card-body">
-                              <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$3</a></h1>
-                              <h4 class="pt20 pb20">Fugit Ipsam</h4>
-                              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <!-- REVIEWS Section  -->
-  <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
-      <h2 class="section-title my-5 text-center">專案介紹</h2>
-      <div class="row mt-3 mb-5">
-          <div class="col-md-4 my-3 my-md-0">
-              <div class="testmonial-card">
-                  <h3 class="testmonial-title">John Doe</h3>
-                  <h6 class="testmonial-subtitle">Web Designer</h6>
-                  <div class="testmonial-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nobis eligendi, quaerat accusamus ipsum sequi dignissimos consequuntur blanditiis natus. Aperiam!</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 my-3 my-md-0">
-              <div class="testmonial-card">
-                  <h3 class="testmonial-title">Steve Thomas</h3>
-                  <h6 class="testmonial-subtitle">UX/UI Designer</h6>
-                  <div class="testmonial-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 my-3 my-md-0">
-              <div class="testmonial-card">
-                  <h3 class="testmonial-title">Miranda Joy</h3>
-                  <h6 class="testmonial-subtitle">Graphic Designer</h6>
-                  <div class="testmonial-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nam. Earum nobis eligendi, dignissimos consequuntur blanditiis natus. Aperiam!</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <!-- CONTACT Section  -->
-  <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
-      <div class="row">
-          <!--
-          <div class="col-md-6 px-0">
-              <div id="map" style="width: 100%; height: 100%; min-height: 400px"></div>
-          </div>
-          -->
-          <div class="col-md-12 px-5 has-height-lg middle-items"
-            style="
-              min-height: 350px;
-            ">
-            
-              <h5 
-                style="
-                width:auto;
-            
-                ">
-                其他資訊 | Information
-              </h5>
-              <p></p>
-              <!--
-              <p>Information</p>
-              -->
-            
-              <div class="text-muted">
+          <div 
+            @click="chang_status(1)"
+            class="col-md-4">
+            <div class="card bg-transparent border my-3 my-md-0">
+              <img src="../assets/resume/happy_fish.jpg" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
                   <!--
-                  <p><span class="ti-location-pin pr-3"></span> 12345 Fake ST NoWhere, AB Country</p>
-                  <p><span class="ti-support pr-3"></span> (886) 910987324</p>
-                  -->
-                  <p><span class="ti-facebook pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-email pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-desktop pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-cloud pr-3"></span>wuotny76@gmail.com</p>
-                  <p><span class="ti-github pr-3"></span>wuotny76@gmail.com</p>
+                      <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
+                      -->
 
+                <h4 class="pt20 pb20"> 3D歡樂捕魚 
+                    <span class="badge badge-primary" >
+                        AR
+                    </span>
+                </h4>
+                <p class="text-white">3D歡樂捕魚，結合AR經由不同辨識圖進入不同漁場，與好友一同捕捉稀有魚種吧!</p>
               </div>
+            </div>
           </div>
+
+          <div class="col-md-4">
+                  <div class="card bg-transparent border my-3 my-md-0">
+                          <img src="../assets/resume/1618211143346.jpg" 
+                          class="rounded-0 card-img-top mg-responsive">
+                          <div class="card-body">
+
+                              <!-- 
+                                  <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
+                                  -->
+                                  <h4 class="pt20 pb20">虛擬攝影棚
+                                      <span class="badge badge-primary" >
+                                          AR
+                                      </span></h4>
+                                  <p class="text-white">
+                                      和自己心儀的女孩，紀錄心動的一瞬間，擁有自己專屬的影片。</p>
+                          </div>
+                  </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border my-3 my-md-0">
+              <img src="../assets/resume/messageImage_1614656930650.jpg" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20">刮刮樂
+                    <span class="badge badge-primary" >
+                        休閒
+                    </span></h4>
+                <p class="text-white">
+                    花50元買一張刮刮樂，就可以擁有一夜致富得機會。
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
       </div>
+
+
+    </div>
   </div>
 
 
 
-  
 
-  
-  
-  <!--
-    <login-header show_h5="1"></login-header>
+  <!-- status 1  -->
+  <div
+    v-else-if = "status == 1 "
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
 
-    <div class="bodydiv">
-
-      <div class="main-box" >
-        <div class="box1" >
-          <h1>
-            {{ my_usdt }} USDT
-          </h1>
-        </div>
-        <div class="box1" >
-          ≈ NT {{ my_usdt_to_nt }}
-        </div>
-
-      </div>
-
-      
-
-      <div class="quicknav">
-
-        <router-link to="/trans_out_req">
-          <h4>
-            <img src="../assets/lynx/c_b1.png" />
-          </h4>
-          <p>轉帳</p>
-        </router-link>
-
-        <router-link to="/trans_in">
-          <h4>
-            <img src="../assets/lynx/c_b2.png" />
-          </h4>
-          <p>收款</p>
-        </router-link>
-
-        <router-link to="/fast">
-          <h4>
-            <img src="../assets/lynx/c_b3.png" />
-          </h4>
-          <p>轉換</p>
-        </router-link>
-
-        
-        <a  @click='go_bank()' href="javascript:void(0)">
-          <h4>
-            <img src="../assets/lynx/c_b4.png" />
-          </h4>
-          <p>帳務</p>
-        </a>
-
-
-
-        <a  @click='logout()' href="javascript:void(0)">
-          <h4>
-            <img src="../assets/lynx/c_b5.png" />
-          </h4>
-          <p>登出</p>
-          
+      style="
+        background:url('../assets/imgs/happy_fish_scene.png') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> 3D歡樂捕魚 </h1>
+        <h2 class="display-4 mb-5"> Unity應用 &amp; 休閒遊戲 </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
         </a>
 
       </div>
+    </header>
 
-      
-      <div class="top3">
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('../assets/imgs/happy_fish2.jpg') no-repeat center center;
+          "
+        >
+        </div>
 
-        <div class="wallets">
-          <div
-          
-            class="wallet-item"
-            v-for="(item, index) in user_items"
-            v-bind:key="index"
-          >
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
 
-              <table
-                :to="{name: 'WalletItem', query: {id: item.item_id }}"
-              >
-                <tr>
-                  <td class="icon">
-                    <img 
-                      v-if = "item.name == 'USDT'"
-                      src="../assets/lynx/usdt.png" 
-                    />
-                    <img 
-                      v-if = "item.name == 'TRX'"
-                      src="../assets/lynx/trx.png" 
-                    />
-                  </td>
-                  <td class="name">
-                    <span>{{ item.name }}</span>
-                  </td>
-                  <td class="num">
-                    <span>{{ item.credit }}</span>
-                    <br />≈ NT {{ item.usd }}
-                  </td>
-                </tr>
-              </table>
+              <!--
+              <h2 class="mb-4"> 介紹 </h2>
+              -->
+
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                公司中，在寶馬188娛樂平台，有一款傳統的歡樂補魚遊戲；在我入職後團隊再這個基礎上，對遊戲增加了更多的可玩性和豐富性。
+              </p>
+              <li>增加了NPC，使玩家更需要注重團隊配合。</li>
+              <li>增加了魚潮的種類，豐富補魚遊戲的可玩性。</li>
+              <li>增加了複雜度魚潮，玩家必須尋找特定的攻略，才能獲取更大的收益。</li>
+              <br/>
+              <p>
+                在客戶端不是公司自己開發情況下，遊戲的數據，無法做有效精準的控制，也無法加入更多的遊戲元素；專案經理決定嘗試開發新版的歡樂補魚遊戲，尚未有明確的任務指示下，需要進行專案經理的構想嘗試。
+              </p>
+
+              <div style="
+                text-align: center;
+                ">
+                <img src="../assets/resume/fish01.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/fish02.jpg" style="width:45%;"/>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr/>
+
+
+    <!-- step1  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+      <div class="row mt-3 mb-5">
+        <div class="col-md-4 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">遊戲場景</h3>
+            <h6 class="testmonial-subtitle"> Scene </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                經過一些簡單場景測試後，決定選用海底的場景(光線可以穿透)不很深的那種，因為覺得這個光影可以模擬的話，將會是一個效果很不錯的地方。
+              </p>
+
+              <div style="
+                ">
+                <img src="../assets/resume/f001.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/f002.jpg" style="width:45%;"/>
+              </div>
+
+              <span> 參考圖取自網路 </span>
+
+
+              <p style="text-align: left; margin-top: 1rem">
+                -初步搭建-
+                <br/>
+                霧霾效果-在水下看東西有一種朦朦朧朧的感覺。
+              </p>
+
+              <div style="
+                ">
+                <img src="../assets/resume/f003.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/f004.jpg" style="width:45%;"/>
+              </div>
+              <span> 朦朦朧朧 </span>
+
+              <div style="
+                ">
+                <img src="../assets/resume/f005.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/f006.jpg" style="width:45%;"/>
+              </div>
+              <span> 物件遠近感 </span>
+
+              <br/>
+
+              <p style="text-align: left; margin-top: 1rem">
+                -水波光影實現-
+                <br/>
+                焦散效果-產生水波纹的光影效果，使用projector來實現。
+              </p>
+
+              <div style="
+                ">
+                <img src="../assets/resume/f007.jpg" style="width:90%;"/>
+              </div>
+
+
+              
+
+
+
+            </div>
           </div>
         </div>
 
 
 
+        <div class="col-md-8 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">模擬場景</h3>
+            <h6 class="testmonial-subtitle">Demo Scene</h6>
 
-        
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/u_juN-PRLNo' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                投影水波光影在魚物件上效果
+              </p>
 
 
+              <p style="text-align:left; margin-top: 1rem; margin-bottom: 0px;">
+                參考資料
+              </p>
+              <div style="text-align:left;">
+                <li>http://www.manew.com/thread-48162-1-1.html	</li>
+                <li>https://download.csdn.net/download/lzh00000/10311302?utm_source=bbsseo</li>
+                <li>https://alastaira.wordpress.com/2014/10/07/underwater-effects/</li>
+                <li>https://catlikecoding.com/unity/tutorials/flow/looking-through-water/</li>
+                <li>https://github.com/Unity-Technologies/VolumetricLighting</li>
+                <li>https://alastaira.wordpress.com/2014/10/07/underwater-effects/</li>
+                <li>https://github.com/muckSponge/Optically-Realistic-Water</li>
+              </div>
+              
 
+              
+            </div>
+
+          </div>
+        </div>
       </div>
-
-      <div class="weui-popup__overlay" style="display: none">&nbsp;</div>
     </div>
-    <bottom-button :key="refresh_key"></bottom-button>
-
-    -->
-  </main>
 
 
+    <!-- step2  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+      <div class="row mt-3 mb-5">
+        <div class="col-md-4 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">材質的選擇</h3>
+            <h6 class="testmonial-subtitle"> Fish </h6>
+            <div class="testmonial-body">
+
+              <p style="text-align: left;">
+                使用簡易場景，放入不同質感的魚，供專案經理決定合適不合適。
+              </p>
+
+              <div style="
+                ">
+                <img src="../assets/resume/f008.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/f009.jpg" style="width:45%;"/>
+              </div>
+              <div style="margin-top:10px;">
+                <img src="../assets/resume/f010.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/f011.jpg" style="width:45%;"/>
+              </div>
+
+              <span> 參考圖取自網路 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">模擬場景</h3>
+            <h6 class="testmonial-subtitle">Demo Scene</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+
+                  width: 45%;
+                  display: inline-block;
+
+                  position: relative; 
+                  padding-bottom: 25%;
+                  height: 0;
+                  overflow: hidden;
+
+                  margin-right:10px;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/pnTWeUVmIfQ' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <div class='embed-container'
+                style="
+                  width: 45%;
+                  display: inline-block;
+
+                  position: relative; 
+                  padding-bottom: 25%;
+                  height: 0;
+                  overflow: hidden;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/kqa9FNdkATs' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align: center;">
+                Q版魚 & 實體魚
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- step3  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+      <div class="row mt-3 mb-5">
+        <div class="col-md-4 my-3 my-md-0">
+          <div class="testmonial-card">
+
+            <h3 class="testmonial-title">統整</h3>
+            <h6 class="testmonial-subtitle"> Unify project </h6>
+            <div class="testmonial-body">
+
+              <p style="text-align: left;">
+                單元測試後(並與專案經理確認後)，整合各項環節，將各個部件串連起來，確認遊戲最後呈現效果與遊戲流程。
+              </p>
+              <div style="text-align:left; margin-bottom:15px;">
+                <li> 豐富海底元素(假魚、岩石、海草) </li>
+                <li> 增加海底特效(氣泡、煙霧) </li>
+                <li> 原有spine在Unity中效果 </li>
+                <li> 美術spine怎麼給格式 </li>
+                <li> 加入音效 </li>
+              </div>
+
+
+               <div style="
+                ">
+                <img src="../assets/resume/f012.jpg" style="width:90%;"/>
+              </div>
+              <span> 整體搭建結果 </span>
+
+
+              <div style="
+                ">
+                <img src="../assets/resume/f013.jpg" style="width:90%;"/>
+              </div>
+              <span> 遊戲流程 </span>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">遊戲展示</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/2k5QwNqVaPM' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align: center;">
+                遊戲結果展示
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="work" class="work-content">
+      <div class="stepsmainblock" id="steps">
+        <div class="wrap">
+
+          <div class="stepsline">
+            <div class="stepslinewrap">
+
+                <div class="stepsblock stepsblockfull" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                  <h4>後續</h4>
+                    現階段開發到這樣，基本就可以提供給專案經理評估。與後端串接後，可直上遊戲平台。
+                  <br/>
+                  <br/>
+                    -擴增方向-
+                  <br/>
+                  <li> 增加連線模組 </li>
+                  <li> 與後端串接( 出魚量，魚潮 ) </li>
+                  <li> 不同辨識圖，出現不同魚場 </li>
+                  <li> 資源DLC </li>
+                  <li> 王怪 </li>
+                  <li> 收集功能 </li>
+                  <li> 成就系統 </li>
+                  <li> 技能 </li>
+                  <li> 換氣 </li>
+                  <li> 魚攻擊 </li>
+
+                </div>
+            </div>
+
+            <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+  </div>
+
+
+
+
+
+  <div 
+    v-if = "status != 0"
+    class="overlay text-white text-center"
+    style="
+      margin-bottom:50px;
+    ">
+    <a 
+      @click="chang_status(0)"
+      class="btn btn-lg btn-primary" 
+      href="javascript:void(0)">返回專案
+    </a>
+  </div>
+  <Contact></Contact>
+
+</main>
 </template>
 
 <script>
-// @ is an alias to /src
-//import BottomButton from "@/components/BottomButton.vue";
-//import LoginHeader from "@/components/LoginHeader.vue";
-//import Notification from "@/components/Notification.vue";
+
+
 
 import Nav from "@/components/SelfNav.vue";
-import Cookies from 'js-cookie'
-//import { apiUserInfo, apiTotal } from "@/api/api";
+import Contact from "@/components/SelfContact.vue";
+import $ from 'jquery';
+
+
 
 export default {
-  name: "Home",
+  name: "Product",
   components: {
     Nav,
-    //BottomButton,
-    //LoginHeader,
- //   Notification,
+    Contact,
   },
 
 
   data() {
     return {
-      my_usdt: 0,
-      my_usdt_to_nt: 0,
-
-      user_wallet: 0,
-      user_wallet_total: 0,
-      user_promotion: 0,
-      user_promotion_total: 0,
-      accumulated: 0,
-      member_ship: 0,
-      user_items: [],
-
-      refresh_key:0,
+      view_type: "project",
+      status: this.$route.query.q,
     };
   },
 
-  created() {},
+  created(){
+    //var jQuery = require("jquery");
+
+    let str_q =  this.$route.query.q;
+    if((typeof str_q) == 'undefined'){
+      //str_q = "0";
+      this.status = 0;
+    }else{
+
+      var q = parseInt(str_q);
+      this.status = q;
+
+      /*
+      if(q != 1 || q != 2 || q != 3 || q != 4){
+        this.status = 0;
+      }
+      */
+
+      
+
+
+      //.header
+      //$(".header").css('background', 'url(../assets/resume/happy_fish.jpg)');
+    }
+
+    
+    console.log("qqqq header->" + $(".header"));
+
+    console.log("qqqq->" + q + (typeof q) );
+    console.log("qqqq->" + this.status);
+  },
+
 
   mounted() {
     this.$nextTick(() => {
-      this.get_user_info();
-      this.get_user_items();
+
+      let q =  this.$route.query.q
+      console.log("q->" + q);
+
+
+      //$(".header").css('background', "url('../assets/imgs/happy_fish_scene.png') no-repeat center center fixed");
+
+      //'~@/assets/image.png'
+      //console.log("qqqq header->" + $(".header").css() );
+
     });
   },
 
 
   methods: {
-
-    get_user_info() {
-
-      let btn_name = Cookies.get('bottonStr');
-      console.log("btn_name->" + btn_name);
-      if ( btn_name != "home" ){
-        Cookies.set('bottonStr', "home");
-        this.refresh_ui();
-      }
-
-      
-
-      //
-      console.log("this->" + this);
-      var self = this;
-
-      this.$mixapi.call("user/get_info", {}, function(res) {
-        console.log("Home get_user_info res=" + JSON.stringify(res));
-        self.my_usdt = res.data.my_usdt;
-        self.my_usdt_to_nt = res.data.my_usdt_to_nt;
-        //console.log( typeof res.status);
-
-        /*
-
-        if (res.code == 0) {
-          //console.log("ttt1");
-          //console.log(res.data.basic_trx);
-
-          self.my_total = res.data.total_credit;
-
-          self.user_wallet = res.data.basic_trx;
-          self.user_wallet_total = res.data.basic_trx_total;
-
-          self.user_promotion = res.data.promotion_trx;
-          self.user_promotion_total = res.data.promotion_trx_total;
-
-        } else {
-          self.$layer.msg(self.$t("login.loginError"));
-        }
-        */
-
-      });
+    chang_status(id) {
+      this.status = id;
     },
-
-
-    get_user_items() {
-      var self = this;
-      this.$mixapi.call("user/get_items", {}, function(res) {
-        if (res.code == 0) {
-          self.user_items = res.data.items;
-        } 
-
-      });
-    },
-
-    go_bank(){
-      this.$router.push('/wallet_item');
-      /*
-      var self = this;
-      this.$mixapi.call("user/get_items", {}, function(res) {
-        if (res.code == 0) {
-          self.user_items = res.data.items;
-        } 
-
-      });
-      */
-
-
-    },
-    
-
-
-  
-    logout(){  
-      Cookies.remove('access_token');
-      this.$router.push('/login');//返回上一层
-    },
-
-
-    refresh_ui(){
-      this.refresh_key +=1;
-    }
-  
 
   },
 };
@@ -661,7 +592,17 @@ export default {
 
 
 <style scoped>
-  .work-content{
+
+
+  .testmonial-card .testmonial-body:after {
+    width: none;
+    height: none;
+    border-style: none;
+    background: none;
+  }
+
+
+.work-content{
     margin: 0;
     padding: 0;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -676,7 +617,7 @@ export default {
     width: 100%;
     position: relative;
     box-sizing: border-box;
-    padding: 60px 0;
+    padding: 20px 0;
   }
 
   .wrap {
@@ -733,7 +674,7 @@ h4 {
 }
 
 .stepsblock b {
-    color: #02ba96;
+    color: #ff214f;
 }
 
 
@@ -744,7 +685,7 @@ h4 {
 
 
 .gt {
-    color: #02ba96;
+    color: #ff214f;
     vertical-align: baseline;
 }
 
@@ -759,12 +700,14 @@ h4 {
 
 .bigstepline {
     position: absolute;
-    top: 165px;
+    top: -80px;
     left: 50%;
     margin-left: -1px;
     width: 3px;
-    height: 800px;
+    height: 3000px;
     background: url(../assets/work/dash2.png);
+
+		
 }
 
 .bigsteplinecic1 {
@@ -779,7 +722,7 @@ h4 {
 }
 
 .stepslinewrap {
-    width: 50%;
+    width: 100%;
 }
 
 .fromLeftIn {
@@ -795,7 +738,7 @@ h4 {
 }
 
 .stepsblock {
-    display: inline-block;
+    display: inline-table;
     width: calc(50% - 45px);
     margin: 20px 15px;
     padding: 20px;
@@ -803,7 +746,7 @@ h4 {
     text-decoration: none;
     line-height: 18px;
     font-weight: 300;
-    border-top: 5px solid #02ba96;
+    border-top: 5px solid #ff214f;
     text-shadow: 1px 1px 1px #333;
     transition: .3s;
     text-align: left;
@@ -869,7 +812,9 @@ h4 {
 
 .stepsblock.stepsblockfull {
     width: calc(100% - 40px);
+    /*
     margin-left: 45px;
+    */
 }
 .stepsblock:hover {
     box-shadow: 0 0 5px #1f1f1f;
@@ -891,7 +836,6 @@ h4 {
 .icosteps2 img {
     height: 80px;
 }
-
 </style>
 
 

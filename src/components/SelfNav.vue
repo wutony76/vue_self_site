@@ -1,6 +1,10 @@
 <template>
 
+<nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top affix" >
+
+<!-- 
   <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+    -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -65,8 +69,12 @@
             <li class="nav-item">
               <a 
                 @click="go('project')"
+                v-bind:class="[_type == 'project' ? 'nav-link select'  : 'nav-link']"
                 class="nav-link" 
-                href="javascript:void(0)">
+                href="javascript:void(0)"
+
+                
+                >
                 專案介紹
               </a>
             </li>
@@ -213,6 +221,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+
+.select{
+  color: #ff214f !important; ;
+}
+
+
 
 .row {
     display: flex;
