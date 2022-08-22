@@ -526,11 +526,6 @@
         <div class="col-lg-6">
           <div class="row justify-content-center">
             <div class="col-sm-8 py-5 my-5">
-
-              <!--
-              <h2 class="mb-4"> 介紹 </h2>
-              -->
-
               <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
               <p>
                 公司與日本pierrot經紀公司合作，我們在TRE展中提供AR應用的技術支援與相關活動的規劃。整體規劃中<b style="color:#ff214f;">虛擬攝影棚</b>專案由我負責。
@@ -549,9 +544,7 @@
       </div>
     </div>
 
-
-
-
+    <!-- 規劃  -->
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items"
       style="
         margin-top: 55px;
@@ -576,6 +569,9 @@
               <div style="
                 ">
                 <img src="../assets/resume/t001.jpg" style="width:100%;"/>
+                <span>
+                  處理示意圖
+                </span>
               </div>
 
             </div>
@@ -590,13 +586,15 @@
             -->
             <div class="testmonial-body">
               <p style="text-align: left; margin-top: 1rem">
-                必須將素材影片，除主角以外的部分除去，變成一支有透明背景的影片檔，再逐一對照場景在合理的地方加上陰影; 
-                因為素材影片是預錄好的，如果直接就和實際錄影機錄下的畫面合成，會有一種突兀的違和感。
+                必須將素材影片，除主角以外的部分除去，變成一支有透明背景的影片檔，再逐一對照場景在合理的地方加上陰影；因為素材影片是預錄好的，如果直接就和實際錄影機錄下的畫面合成，會有一種突兀的違和感。
               </p>
 
               <div style="
                 ">
                 <img src="../assets/resume/t002.jpg" style="width:100%;"/>
+                <span>
+                  直接合成
+                </span>
               </div>
 
             </div>
@@ -616,7 +614,10 @@
 
               <div style="
                 ">
-                <img src="../assets/resume/t002.jpg" style="width:100%;"/>
+                <img src="../assets/resume/t003.jpg" style="width:100%;"/>
+                <span>
+                  在細節上仔細處理後合成
+                </span>
               </div>
 
             </div>
