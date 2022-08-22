@@ -1,19 +1,7 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import Cookies from 'js-cookie'
-import enLocale from './en'
-import ptLocale from './pt'
-import inLocale from './in'
-import koLocale from './ko'
-import deLocale from './de'
-import jaLocale from './ja'
-import frLocale from './fr'
-import arLocale from './ar'
-import trLocale from './tr'
-import esLocale from './es'
-import chLocale from './ch'
-import twLocale from './tw'
-import vnLocale from './vn'
+
 
 Vue.use(VueI18n)
 

@@ -12,7 +12,17 @@
 
 
   <!-- header -->
-  <header id="home" class="header">
+  <header id="home" class="header"
+
+  style="
+    background:url('../assets/imgs/bg1.jpg') no-repeat center center fixed;
+  "
+  >
+
+
+    
+
+
     <div class="overlay text-white text-center">
       <h1 class="display-2 font-weight-bold my-3"> 吳東霖 </h1>
       <!--
@@ -25,15 +35,15 @@
 
 
 
-
-
-
-
   <!--  About Section  -->
   <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
     <div class="row">
-      <div class="col-lg-6 has-img-bg"></div>
-      <div class="col-lg-6">
+
+      <!--
+      <div class="col-lg-6 has-img-bg">
+        -->
+
+      <div class="col-lg-4 has-img-bg">
         <div class="row justify-content-center">
           <div class="col-sm-8 py-5 my-5">
             <h2 class="mb-4"> 自傳 </h2>
@@ -50,7 +60,55 @@
 
           </div>
         </div>
+
       </div>
+
+
+      <div class="col-lg-4">
+        <div class="row justify-content-center">
+          <div class="col-sm-8 py-5 my-5">
+
+            <h2 class="mb-4"> 個人資料 </h2>
+            <p> 中文姓名 | 吳東霖 </p>
+            <p> 英文姓名 | Tony Wu </p>
+            <p> 性別 | 男 </p>
+            <p> 就業狀態 | 待業中 </p>
+            <p> E-mail | wutony76@gmail.com </p>
+            <p> Line | wutony76@gmail.com </p>
+            <p> FB Messenger | https://www.facebook.com/wutony76 </p>
+            <p> 通訊地址 | 台北市信義區松山路*** </p>
+            <p> 就業狀態 | 待業中 </p>
+            <p> 學歷 | 致理科技大學 </p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="row justify-content-center">
+          <div class="col-sm-8 py-5 my-5">
+            <h2 class="mb-4"> 自傳 </h2>
+
+            <p>
+            您好，我是吳東霖，來自宜蘭。樂於接收新的知識與創新的想法，喜歡親自動手操作、發想設計，用實際上的行動和數據比空話更有份量。經常在團隊的交流與協調過程中，學習並增進自身的能力；個性穩定，做事細心謹慎，無論是工作或任務指派，都能有效的達成。期望用自己的專業替公司帶來更大的效益。
+
+            <br>
+            <br>
+
+            專業能力方面，高職開始學習程式設計與邏輯思考訓練，程式語言從VB、ActionScript、JAVA...等都有一段時間的接觸過，有扎實基礎的編寫程式和解決問題能力；新的技術和開發架構，都可以很快配合並獨立作業。工作至今，除了擔任3D美術，另有豐富的遊戲開發經驗，可以主動擔負相關工作，使任務分工能更有效率。
+            
+            </p>
+
+
+
+
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -162,7 +220,7 @@
                 開發環境，主要用AWS上的VPS(虛擬主機)，作業系統為Centos7並以RPC概念來串接多台VPS架設，達到客戶的需求，主要以<b>Python</b>語言，做數據和流程上的模擬， 並需在網路爬取解析有用可靠訊息。
               </div>
               
-              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)" style="margin-left:45px;">
+              <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)" style="">
                 <h4>負責專案</h4>
 
                 <li>代收&代付金流系統 -<b>php維護</b>  </li>
@@ -232,9 +290,7 @@
                 </h3>
 
                 <div class="stepsblock stepsblockfull" 
-                    style="
-                        margin-left: 45px;
-                    "
+                    style=""
                     data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
                     <h4> 前端遊戲 > 全端開發 </h4>
 
@@ -247,7 +303,7 @@
                     開發環境，主要用AWS上的VPS(虛擬主機)，作業系統為Centos7並以RPC概念來串接多台VPS架設。前端技術<b>Unity</b>和<b>Android</b>做為App應用開發，H5遊戲用<b>Cocos Creator</b>開發。
                 </div>
                 
-                <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)"  style="margin-left: 45px;">
+                <div class="stepsblock fromLeftOut" data-scroll="toggle(.fromLeftIn, .fromLeftOut)"  style="">
                     <h4>負責專案</h4>
 
 
@@ -336,12 +392,18 @@
               <h4> 3D美術 </h4>
 							依2D設定圖，製做出限定面數3D模型，參與拉普拉斯的神子、星界王冠、精靈樂章、時空契約‧‧‧等專案的3D物件製作。公司非常非常注重3D模型的品質，新人時期一組小物件常常重畫超過10次以上，在這邊會要求自己更加的細心和觀察，慢慢減少重畫與修改次數。
 							<br/>
+              在腳色設計方面，擅長怪物類、動物類設計，類寫實韓系風格。
 							<br/>
+              <br/>
 							<li>3D模型建模+UV+貼圖</li>
 							<li>3D減面</li>
 							<li>3D貼圖重製</li>
 							<li>2DICON、UI</li>
 							<li>分色</li>
+              <br/>
+							<br/>
+              
+
             </div>
           </div>
           <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
@@ -369,7 +431,9 @@
 
                 <div class="stepsblock stepsblockfull">
 									<h4> 規劃未來方向 </h4>
-									在補習班學習整體的專案製作與開發過程，並完成2D、3D作品集。
+									1.在補習班學習整體的專案製作與開發過程，並完成2D、3D作品集。
+                  <br/>
+                  2.並統整思考之前所學所有東西，並考慮自身興趣與未來規劃，決定嘗試美術職務，專心準備作品。
 
 									<br/>
 									<br/>
@@ -1156,7 +1220,9 @@ h4 {
 
 .stepsblock.stepsblockfull {
     width: calc(100% - 40px);
+    /*
     margin-left: 45px;
+    */
 }
 .stepsblock:hover {
     box-shadow: 0 0 5px #1f1f1f;

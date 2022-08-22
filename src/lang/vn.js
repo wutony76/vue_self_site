@@ -323,12 +323,6 @@ export default {
   出金成功:'Chuyển tiền thành công',
   失敗:'Thất bại',
 
-
-  礦機利潤:'Máy khai thác lợi nhuận',
-  礦機上級獎勵:'Phần thưởng vượt trội cho máy khai thác',
-  團隊獎金:'Phần thưởng cho đội',
-  注冊獎勵:'Đăng ký tiền thưởng',
-  注冊上級獎勵:'Đăng ký phần thưởng cao cấp',
   
   /*  get coin   */
   金額數量錯誤:'số tiền sai ', 
