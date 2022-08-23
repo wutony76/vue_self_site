@@ -158,7 +158,7 @@
 
         <div class="col-md-4 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">遊戲場景</h3>
+            <h3 class="testmonial-title">STEP1. 遊戲場景</h3>
             <h6 class="testmonial-subtitle"> Scene </h6>
             <div class="testmonial-body">
               <p style="text-align: left;">
@@ -278,7 +278,7 @@
 
         <div class="col-md-4 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">材質的選擇</h3>
+            <h3 class="testmonial-title">STEP2. 材質的選擇</h3>
             <h6 class="testmonial-subtitle"> Fish </h6>
             <div class="testmonial-body">
 
@@ -372,20 +372,14 @@
         <div class="col-md-4 my-3 my-md-0">
           <div class="testmonial-card">
 
-            <h3 class="testmonial-title">統整</h3>
-            <h6 class="testmonial-subtitle"> Unify project </h6>
+            <h3 class="testmonial-title"> STEP3. 調整</h3>
+            <h6 class="testmonial-subtitle"> Tools </h6>
             <div class="testmonial-body">
 
               <p style="text-align: left;">
                 單元測試後(並與專案經理確認後)，整合各項環節，將各個部件串連起來，確認遊戲最後呈現效果與遊戲流程。
               </p>
-              <div style="text-align:left; margin-bottom:15px;">
-                <li> 豐富海底元素(假魚、岩石、海草) </li>
-                <li> 增加海底特效(氣泡、煙霧) </li>
-                <li> 原有spine在Unity中效果 </li>
-                <li> 美術spine怎麼給格式 </li>
-                <li> 加入音效 </li>
-              </div>
+              
 
 
                <div style="
@@ -486,6 +480,8 @@
 
 
   </div>
+
+
 
 
   <!-- status 2  -->
@@ -634,7 +630,7 @@
 
         <div class="col-md-6 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">影片處理</h3>
+            <h3 class="testmonial-title">STEP1. 影片處理</h3>
             <h6 class="testmonial-subtitle"> Movie </h6>
             <div class="testmonial-body">
               <p style="text-align: left;">
@@ -648,47 +644,18 @@
 
               <div style="
                 ">
-                <img src="../assets/resume/t004.jpg" style="width:100%;" />
+                <img src="../assets/resume/t004.jpg" style="width:90%;" />
               </div>
               <span> 這部分需去背並轉換透明格式(AE處理+轉檔) </span>
 
 
-              <p style="text-align: left; margin-top: 1rem">
-                -初步搭建-
-                <br/>
-                霧霾效果-在水下看東西有一種朦朦朧朧的感覺。
-              </p>
-
               <div style="
+                text-align: center;
                 ">
-                <img src="../assets/resume/f003.jpg" style="width:45%; margin-right:10px;"/>
-                <img src="../assets/resume/f004.jpg" style="width:45%;"/>
+                <img src="../assets/resume/t005.jpg" style="width:45%; margin-right:10px;"/>
+                <img src="../assets/resume/t006.jpg" style="width:45%;"/>
               </div>
-              <span> 朦朦朧朧 </span>
-
-              <div style="
-                ">
-                <img src="../assets/resume/f005.jpg" style="width:45%; margin-right:10px;"/>
-                <img src="../assets/resume/f006.jpg" style="width:45%;"/>
-              </div>
-              <span> 物件遠近感 </span>
-              <br/>
-
-              <p style="text-align: left; margin-top: 1rem">
-                -水波光影實現-
-                <br/>
-                焦散效果-產生水波纹的光影效果，使用projector來實現。
-              </p>
-
-              <div style="
-                ">
-                <img src="../assets/resume/f007.jpg" style="width:90%;"/>
-              </div>
-
-
-              
-
-
+              <span> 原始影片示意圖&去背影片示意圖  </span>
 
             </div>
           </div>
@@ -698,8 +665,8 @@
 
         <div class="col-md-6 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">模擬場景</h3>
-            <h6 class="testmonial-subtitle">Demo Scene</h6>
+            <h3 class="testmonial-title">模擬</h3>
+            <h6 class="testmonial-subtitle">Test</h6>
 
             <div class="testmonial-body">
               <div class='embed-container'
@@ -711,7 +678,7 @@
                   max-width: 100%;
                 ">
                 
-                <iframe src='https://www.youtube.com/embed/u_juN-PRLNo' frameborder='0' allowfullscreen
+                <iframe src='https://www.youtube.com/embed/-krC5umDMVg' frameborder='0' allowfullscreen
                 style="
                   position: absolute;
                   top: 0; 
@@ -723,7 +690,7 @@
               </div>
 
               <p style="text-align:center;">
-                投影水波光影在魚物件上效果
+                透明影片測試記錄(編號:-krC5umDMVg)
               </p>
 
 
@@ -731,13 +698,18 @@
                 參考資料
               </p>
               <div style="text-align:left;">
-                <li>http://www.manew.com/thread-48162-1-1.html	</li>
-                <li>https://download.csdn.net/download/lzh00000/10311302?utm_source=bbsseo</li>
-                <li>https://alastaira.wordpress.com/2014/10/07/underwater-effects/</li>
-                <li>https://catlikecoding.com/unity/tutorials/flow/looking-through-water/</li>
-                <li>https://github.com/Unity-Technologies/VolumetricLighting</li>
-                <li>https://alastaira.wordpress.com/2014/10/07/underwater-effects/</li>
-                <li>https://github.com/muckSponge/Optically-Realistic-Water</li>
+                <li>https://blog.csdn.net/yuyingwin/article/details/80561517	</li>
+
+                <li>
+                https://medium.com/@pofu.lu/unity-transparent-video-%E7%94%A8-videoplayer-%E6%88%96-avpro-%E6%92%AD%E6%94%BE%E9%80%8F%E6%98%8E%E5%BD%B1%E7%89%87-83b4b6b4aefd	</li>
+                
+                <li>
+                  https://jayjustice1945.blogspot.com/2016/03/unitycunity.html
+                  <b style="color:#ff214f;">使用 MovieTexture  -行動設備無法</b></li>
+
+                <li>https://blog.csdn.net/u010019717/article/details/73414698 
+                  <b style="color:#ff214f;">手機alpha webm可用, vp8視頻設定</b></li>
+
               </div>
               
 
@@ -755,25 +727,23 @@
       <div class="row mt-3 mb-5">
         <div class="col-md-4 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">材質的選擇</h3>
-            <h6 class="testmonial-subtitle"> Fish </h6>
+            <h3 class="testmonial-title">STEP2. 影片處理2</h3>
+            <h6 class="testmonial-subtitle"> Movie </h6>
             <div class="testmonial-body">
 
               <p style="text-align: left;">
-                使用簡易場景，放入不同質感的魚，供專案經理決定合適不合適。
+                為了方便開發與影片的後製，必須對預錄的影片製訂規格。如果廠商提供了上一部類型有複雜背景的影片，將必須花費更多的時間在處理影片上。
               </p>
 
-              <div style="
-                ">
-                <img src="../assets/resume/f008.jpg" style="width:45%; margin-right:10px;"/>
-                <img src="../assets/resume/f009.jpg" style="width:45%;"/>
+              <div style="">
+                <img src="../assets/resume/t007.jpg" style="width:90%;"/>
               </div>
-              <div style="margin-top:10px;">
-                <img src="../assets/resume/f010.jpg" style="width:45%; margin-right:10px;"/>
-                <img src="../assets/resume/f011.jpg" style="width:45%;"/>
-              </div>
+              <span> 複雜背景的影片 </span>
 
-              <span> 參考圖取自網路 </span>
+              <div style="">
+                <img src="../assets/resume/t008.jpg" style="width:90%;"/>
+              </div>
+              <span>  綠幕影片 | 參考圖取自網路 </span>
 
             </div>
           </div>
@@ -781,10 +751,19 @@
 
         <div class="col-md-8 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">模擬場景</h3>
-            <h6 class="testmonial-subtitle">Demo Scene</h6>
+            <h3 class="testmonial-title">測試</h3>
+            <h6 class="testmonial-subtitle">Test</h6>
+
 
             <div class="testmonial-body">
+
+              <p class="" style="
+                  padding-top: 10px !important;
+                  color:#ff214f;
+                "> 
+                *展示影片內容有皮膚裸露、熱舞，建議滿18歲以上觀看*
+              </p>
+
               <div class='embed-container'
                 style="
 
@@ -799,7 +778,7 @@
                   margin-right:10px;
                 ">
                 
-                <iframe src='https://www.youtube.com/embed/pnTWeUVmIfQ' frameborder='0' allowfullscreen
+                <iframe src='https://www.youtube.com/embed/6u2sgMDHJx0' frameborder='0' allowfullscreen
                 style="
                   position: absolute;
                   top: 0; 
@@ -821,7 +800,34 @@
                   overflow: hidden;
                 ">
                 
-                <iframe src='https://www.youtube.com/embed/kqa9FNdkATs' frameborder='0' allowfullscreen
+                <iframe src='https://www.youtube.com/embed/CUtiCuCIiEw' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <p style="text-align: center;">
+                測試影片(測試資料取自網路) | 轉Webm測試記錄(編號:CUtiCuCIiEw)
+              </p>
+
+
+
+              <div class='embed-container'
+                style="
+                  width: 90%;
+                  display: inline-block;
+
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/HGDSI8qik3s' frameborder='0' allowfullscreen
                 style="
                   position: absolute;
                   top: 0; 
@@ -833,9 +839,11 @@
               </div>
 
               <p style="text-align: center;">
-                Q版魚 & 實體魚
+                模擬測試影片(編號:HGDSI8qik3s)
               </p>
+
             </div>
+
 
           </div>
         </div>
@@ -849,7 +857,7 @@
         <div class="col-md-4 my-3 my-md-0">
           <div class="testmonial-card">
 
-            <h3 class="testmonial-title">統整</h3>
+            <h3 class="testmonial-title">STEP3. 統整</h3>
             <h6 class="testmonial-subtitle"> Unify project </h6>
             <div class="testmonial-body">
 
@@ -916,34 +924,6 @@
             </div>
 
           </div>
-        </div>
-      </div>
-    </div>
-
-    
-    <div id="work" class="work-content">
-      <div class="stepsmainblock" id="steps">
-        <div class="wrap">
-
-          <div class="stepsline">
-            <div class="stepslinewrap">
-
-                <div class="stepsblock stepsblockfull" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
-                  <h4>後續</h4>
-                    個人覺得比較可惜的事，影片中素材沒有附上對應的聲音檔，最後影片整體上會更自然、更有趣，不會有一種在看默劇的感覺。
-                    <br/>
-                    <br/>
-                    活動執行當天，我們是人員親到現場錄影操作，花費不少的成本。
-                    可衍伸做成自動拍攝的機台效益較大，需要營造一個私密空間，玩家才好放開拍攝，
-                    類似於主題活動50元拍照機概念。
-                </div>
-            </div>
-
-            <div class="stepslinewrap fromRightOut" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-              
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
