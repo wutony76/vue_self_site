@@ -628,26 +628,38 @@
       </div>
     </div>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f8ee1044e84c91ed1979d89aa07cf2afce5015d5
     <!-- step1  -->
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
       <div class="row mt-3 mb-5">
 
         <div class="col-md-6 my-3 my-md-0">
           <div class="testmonial-card">
+<<<<<<< HEAD
             <h3 class="testmonial-title"> 辨識 </h3>
             <h6 class="testmonial-subtitle"> Identify </h6>
+=======
+            <h3 class="testmonial-title">影片處理</h3>
+            <h6 class="testmonial-subtitle"> Movie </h6>
+>>>>>>> f8ee1044e84c91ed1979d89aa07cf2afce5015d5
             <div class="testmonial-body">
               <p style="text-align: left;">
-                經過一些簡單場景測試後，決定選用海底的場景(光線可以穿透)不很深的那種，因為覺得這個光影可以模擬的話，將會是一個效果很不錯的地方。
+                預錄好的影片需要合成，就必須轉成透明格式影片，經過一連串的測試我是選用.webm影片格式。
+                <b style="color:#ff214f;">
+                  WebM的壓縮比MP4小得多，而且格式支援透明的通道。
+                </b>
+                這樣的情況下，就方便技術人員，可以用一般的設備(2~3萬PC)做開發。
+                影片品質上我就分不大出來是否相較其他格式，是否有太大的區別。
               </p>
 
               <div style="
                 ">
-                <img src="../assets/resume/f001.jpg" style="width:45%; margin-right:10px;"/>
-                <img src="../assets/resume/f002.jpg" style="width:45%;"/>
+                <img src="../assets/resume/t004.jpg" style="width:100%;" />
               </div>
-
-              <span> 參考圖取自網路 </span>
+              <span> 這部分需去背並轉換透明格式(AE處理+轉檔) </span>
 
 
               <p style="text-align: left; margin-top: 1rem">
@@ -669,7 +681,6 @@
                 <img src="../assets/resume/f006.jpg" style="width:45%;"/>
               </div>
               <span> 物件遠近感 </span>
-
               <br/>
 
               <p style="text-align: left; margin-top: 1rem">
