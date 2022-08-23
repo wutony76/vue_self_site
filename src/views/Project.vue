@@ -628,17 +628,14 @@
       </div>
     </div>
 
-
-
-
     <!-- step1  -->
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
       <div class="row mt-3 mb-5">
 
         <div class="col-md-6 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">遊戲場景</h3>
-            <h6 class="testmonial-subtitle"> Scene </h6>
+            <h3 class="testmonial-title"> 辨識 </h3>
+            <h6 class="testmonial-subtitle"> Identify </h6>
             <div class="testmonial-body">
               <p style="text-align: left;">
                 經過一些簡單場景測試後，決定選用海底的場景(光線可以穿透)不很深的那種，因為覺得這個光影可以模擬的話，將會是一個效果很不錯的地方。
