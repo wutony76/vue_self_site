@@ -629,8 +629,6 @@
     </div>
 
 
-
-
     <!-- step1  -->
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
       <div class="row mt-3 mb-5">
@@ -675,7 +673,6 @@
                 <img src="../assets/resume/f006.jpg" style="width:45%;"/>
               </div>
               <span> 物件遠近感 </span>
-
               <br/>
 
               <p style="text-align: left; margin-top: 1rem">
