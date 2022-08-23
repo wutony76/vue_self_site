@@ -628,23 +628,14 @@
       </div>
     </div>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f8ee1044e84c91ed1979d89aa07cf2afce5015d5
     <!-- step1  -->
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
       <div class="row mt-3 mb-5">
 
         <div class="col-md-6 my-3 my-md-0">
           <div class="testmonial-card">
-<<<<<<< HEAD
-            <h3 class="testmonial-title"> 辨識 </h3>
-            <h6 class="testmonial-subtitle"> Identify </h6>
-=======
             <h3 class="testmonial-title">影片處理</h3>
             <h6 class="testmonial-subtitle"> Movie </h6>
->>>>>>> f8ee1044e84c91ed1979d89aa07cf2afce5015d5
             <div class="testmonial-body">
               <p style="text-align: left;">
                 預錄好的影片需要合成，就必須轉成透明格式影片，經過一連串的測試我是選用.webm影片格式。
