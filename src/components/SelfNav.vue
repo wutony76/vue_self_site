@@ -11,6 +11,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
 
+
+                <!--
             <li 
               v-if = "_type == 'home'"
               class="nav-item">
@@ -22,6 +24,7 @@
               class="nav-item">
               123
             </li>
+            -->
 
 
 
@@ -79,14 +82,19 @@
               </a>
             </li>
 
+
             <li class="nav-item">
               <a 
-                @click="go('project')"
+                @click="go('workwall')"
                 class="nav-link" 
                 href="javascript:void(0)">
-                專案列表
+                
+                其他作品
               </a>
             </li>
+
+
+
 
             <!--
             <li class="nav-item">
@@ -113,16 +121,10 @@
 
 
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a 
-                @click="go('workwall')"
-                class="nav-link" 
-                href="javascript:void(0)">
-                
-                其他作品
-              </a>
-            </li>
+            
 
+
+<!--
             <li class="nav-item">
               <a class="nav-link" href="#gallary">
                 紀錄分享
@@ -138,6 +140,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">交流建議</a>
             </li>
+            -->
 
             <!--
             <li class="nav-item">

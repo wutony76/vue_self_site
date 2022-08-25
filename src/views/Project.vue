@@ -59,7 +59,10 @@
             @click="chang_status(3)"
             class="col-md-4">
             <div class="card bg-transparent border my-3 my-md-0">
-              <img src="../assets/resume/messageImage_1614656930650.jpg" class="rounded-0 card-img-top mg-responsive">
+
+               <img src="assets/imgs/proj_scratch.jpg" 
+                class="rounded-0 card-img-top mg-responsive">
+
               <div class="card-body">
                 <h4 class="pt20 pb20">刮刮樂
                     <span class="badge badge-primary" >
@@ -71,6 +74,96 @@
               </div>
             </div>
           </div>
+
+
+          <div 
+            @click="chang_status(4)"
+            class="col-md-4"
+            style=" margin-top: 2rem;"
+            >
+            <div class="card bg-transparent border my-3 my-md-0"
+            >
+              <img src="../assets/resume/c2c.jpg" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20">C2C遊戲(玩家&玩家)
+                    <span class="badge badge-primary" >
+                        休閒
+                    </span></h4>
+                <p class="text-white">
+                  主打真實玩家和真實玩家的一起遊戲，有什麼遊戲是比跟自己好朋友玩更好玩。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div 
+            @click="chang_status(5)"
+            class="col-md-4"
+            style=" margin-top: 2rem;"
+            >
+            <div class="card bg-transparent border my-3 my-md-0"
+            >
+              <img src="assets/imgs/proj_slot.jpg" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20">女神拉霸機
+                    <span class="badge badge-primary" >
+                        休閒
+                    </span></h4>
+                <p class="text-white">
+                  女神主題系列的拉霸機，擁有許多彩蛋，等著您來發現。
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div 
+            @click="chang_status(6)"
+            class="col-md-4"
+            style=" margin-top: 2rem;"
+            >
+            <div class="card bg-transparent border my-3 my-md-0"
+            >
+              <img src="assets/imgs/proj_ar.png" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20">AR應用專案
+                    <span class="badge badge-primary" >
+                        團樂
+                    </span></h4>
+                <p class="text-white">
+                  使用AR技術，大家一起同樂。
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div 
+            @click="chang_status(7)"
+            class="col-md-4"
+            style=" margin-top: 2rem;"
+            >
+            <div class="card bg-transparent border my-3 my-md-0"
+            >
+              <img src="assets/imgs/proj_creator.jpg" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20">Creator應用專案
+                    <span class="badge badge-primary" >
+                      綜合
+                    </span></h4>
+
+                <p class="text-white">
+                  H5的相關應用
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
 
 
 
@@ -481,9 +574,6 @@
 
   </div>
 
-
-
-
   <!-- status 2  -->
   <div
     v-else-if = "status == 2 "
@@ -857,34 +947,26 @@
         <div class="col-md-4 my-3 my-md-0">
           <div class="testmonial-card">
 
-            <h3 class="testmonial-title">STEP3. 統整</h3>
-            <h6 class="testmonial-subtitle"> Unify project </h6>
+            <h3 class="testmonial-title">STEP3. 擴增工具</h3>
+            <h6 class="testmonial-subtitle"> Tools </h6>
             <div class="testmonial-body">
 
               <p style="text-align: left;">
-                單元測試後(並與專案經理確認後)，整合各項環節，將各個部件串連起來，確認遊戲最後呈現效果與遊戲流程。
+                主要的功能完成後，還需要一些工具，讓最後的影片完成度更高、更細緻。
               </p>
-              <div style="text-align:left; margin-bottom:15px;">
-                <li> 豐富海底元素(假魚、岩石、海草) </li>
-                <li> 增加海底特效(氣泡、煙霧) </li>
-                <li> 原有spine在Unity中效果 </li>
-                <li> 美術spine怎麼給格式 </li>
-                <li> 加入音效 </li>
-              </div>
-
 
                <div style="
                 ">
-                <img src="../assets/resume/f012.jpg" style="width:90%;"/>
+                <img src="../assets/resume/t009.jpg" style="width:90%;"/>
               </div>
-              <span> 整體搭建結果 </span>
+              <span> 影片調整工具 </span>
 
 
               <div style="
                 ">
-                <img src="../assets/resume/f013.jpg" style="width:90%;"/>
+                <img src="../assets/resume/t010.jpg" style="width:90%;"/>
               </div>
-              <span> 遊戲流程 </span>
+              <span> 玩家定位參考線 </span>
 
 
 
@@ -894,10 +976,18 @@
 
         <div class="col-md-8 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title">遊戲展示</h3>
+            <h3 class="testmonial-title">工具展示</h3>
             <h6 class="testmonial-subtitle">Demo</h6>
 
             <div class="testmonial-body">
+
+              <p class="" style="
+                  padding-top: 10px !important;
+                "> 
+                *顏色經過現場環境調整後，可以儲存，下次開啟會自動載入設定*
+              </p>
+
+
               <div class='embed-container'
                 style="
                   position: relative; 
@@ -907,7 +997,7 @@
                   max-width: 100%;
                 ">
                 
-                <iframe src='https://www.youtube.com/embed/2k5QwNqVaPM' frameborder='0' allowfullscreen
+                <iframe src='https://www.youtube.com/embed/9nNxH8vtrlE' frameborder='0' allowfullscreen
                 style="
                   position: absolute;
                   top: 0; 
@@ -919,7 +1009,7 @@
               </div>
 
               <p style="text-align: center;">
-                遊戲結果展示
+                補助工具功能(編號:9nNxH8vtrlE)
               </p>
             </div>
 
@@ -927,8 +1017,6 @@
         </div>
       </div>
     </div>
-
-
 
      <!-- DEMO  -->
     <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
@@ -1153,6 +1241,1825 @@
 
 
   </div>
+
+
+  <!-- status 3  -->
+  <div
+    v-else-if = "status == 3"
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('../assets/imgs/proj_scratch.jpg') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> 刮刮樂 </h1>
+        <h2 class="display-4 mb-5"> Creator &amp; 休閒 </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('../assets/imgs/proj_scratch.jpg') no-repeat center center;
+          "
+        >
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                Aceking女神娛樂城中，刮刮樂遊戲，我主要負責，小遊戲共用模組開發與平台的串接、相關的測試、維護(刮刮樂數據模擬)。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slot1  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">刮刮樂</h3>
+            <h6 class="testmonial-subtitle">Scratch</h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  刮刮樂
+                </b>提供即時性的樂趣，玩家可立即且輕易地得知自己是否中獎與中獎金額，並以遊戲多樣化取勝。
+
+              </p>
+              <div style="">
+                <img src="../assets/resume/Scratch00.png" style="width:90%;" />
+              </div>
+              <span> 遊戲畫面 </span>
+
+              <div style="">
+                <img src="../assets/resume/Scratch01.png" style="width:90%;" />
+              </div>
+              <span> 遊戲畫面 </span>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+
+              <div style="">
+                <img src="../assets/resume/Scratch02.jpg" style="width:90%;" />
+              </div>
+              <span> 遊戲畫面 </span>
+
+              <div style="">
+                <img src="../assets/resume/Scratch03.png" style="width:90%;" />
+              </div>
+              <span> 遊戲畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- slot2  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">機率數據模擬</h3>
+            <h6 class="testmonial-subtitle"> Data</h6>
+            <div class="testmonial-body">
+              
+              <p style="text-align:left;">
+                玩法1：刮出金鼠、銀鼠或銅鼠，即得該獎金。
+                <br/>
+                玩法2： 任一個「您的手牌號碼」大小介於左右兩個「對手手牌號碼」之間，即得該號碼對應獎金。<br/>
+                玩法3：刮出一個金額，即得該獎金。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model01' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 龍門一路發 </span>
+
+              <p style="text-align:left; margin-top:2rem;">
+                玩法1：任一個「您的號碼」對中「幸運號碼」，即得該號碼對應獎金；或刮出一個紅包符號，即得紅包下方對應獎金。
+                <br/>
+                玩法2：紅包皆可刮出一個金額即得該獎金。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model02' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 紅包任你刮 </span>
+
+
+              <p style="text-align:left; margin-top:2rem;">
+                刮開任一局，若「您的猜拳」勝過「對手猜拳」，即得該局對應的獎金(不可跨列對獎)，若平手，則該局可得對應獎金的一半。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model03' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 賞你錢錢拳 </span>
+
+
+
+              <p style="text-align:left; margin-top:2rem;">
+                玩法1：任一個您的號碼對中幸運號碼，即得該號碼對應獎金。
+                <br/>
+                玩法2：刮出一個金額，即得該獎金。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model04' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 鈔票數不完 </span>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">試算</h3>
+            <h6 class="testmonial-subtitle">Test</h6>
+
+            <div class="testmonial-body">
+
+              <p style="text-align:left; margin-top:2rem;">
+                玩法1：任一個「您的麻將」對中「對手麻將」，即得該符號對應獎金。<br/>
+                玩法2：刮出3個相同的點數，即得對應獎金。
+                <br/>
+                玩法3：若刮出中發白，即得1,000元
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model05' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 胡胡胡翻天 </span>
+
+
+              <p style="text-align:left; margin-top:2rem;">
+                任一個「您的符號」對中「幸運符號」，即得該符號對應獎金。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model06' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 閃亮十二星 </span>
+
+
+              <p style="text-align:left; margin-top:2rem;">
+                玩法1：任一局「主隊分數」高於「客隊分數」，即得該局對應獎金。
+                <br/>
+                玩法2：於各個壘包區刮出一個球的符號，即得該符號對應獎金。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model08' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 金獎一擊棒 </span>
+
+              
+              <p style="text-align:left; margin-top:2rem;">
+                玩法1：任一個「您的號碼」對中「幸運號碼」，即得該號碼對應獎金。
+                <br/>
+                玩法2：若刮中特別號「8」，即得獎金300元。
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:18053/avscratch_model09' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+              <span> 樂透水金球 </span>
+
+              
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- status 4  -->
+  <div
+    v-else-if = "status == 4"
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('../assets/imgs/proj_c2c.jpg') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> C2C遊戲 </h1>
+        <h2 class="display-4 mb-5"> Creator &amp; C2C </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('../assets/imgs/proj_c2c_main.jpg') no-repeat center center;
+          "
+        >
+        <!-- 
+        <img src="assets/imgs/proj_c2c_main.jpg" style="width:100%;" />
+        -->
+
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                跟NPC玩遊戲好玩，還是跟朋友玩遊戲好玩呢?我們製作了數款精典遊戲供各位玩家挑選。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- c2c1  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">C2C1. 終極密碼 </h3>
+            <h6 class="testmonial-subtitle"> Guess number </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  終極密碼
+                </b>
+                 先選擇1-999中一個數字，相互猜，先猜中的人勝利。
+              </p>
+              <div style="">
+                <img src="../assets/resume/c2c01.jpg" style="width:90%;" />
+              </div>
+              <span> 終極密碼 </span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/cfIfaVl3mLg' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                終極密碼實機記錄(編號:cfIfaVl3mLg)
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- c2c2  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">C2C2. 吹牛 </h3>
+            <h6 class="testmonial-subtitle"> Boast </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                
+                <b style="color:#ff214f;">
+                  吹牛
+                </b>必須猜中自己和對方綜合的點數，真真假假的鬥智遊戲。
+
+              </p>
+              <div style="">
+                <img src="../assets/resume/c2c02.jpg" style="width:90%;" />
+              </div>
+              <span> 吹牛 </span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/-tgO5hx6SV4' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                吹牛實機記錄(編號:-tgO5hx6SV4)
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- c2c3  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">C2C3. 足球對決 </h3>
+            <h6 class="testmonial-subtitle"> Soccer </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                
+                <b style="color:#ff214f;">
+                  足球對決
+                </b>玩家在足球場上進行PK對決！
+
+              </p>
+              <div style="">
+                <img src="../assets/resume/c2c03.jpg" style="width:90%;" />
+              </div>
+              <span> 足球對決 </span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/KGY1dgFlHvU' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                足球對決實機記錄(編號:KGY1dgFlHvU)
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/V-jzYOztdow' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                藍隊&紅隊&觀眾端 足球對決實機記錄(編號:V-jzYOztdow)
+              </p>
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- status 5  -->
+  <div
+    v-else-if = "status == 5 "
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('../assets/imgs/proj_slot.jpg') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> 女神拉霸機 </h1>
+        <h2 class="display-4 mb-5"> Creator &amp; 休閒博弈 </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('../assets/imgs/proj_slot_main.jpg') no-repeat center center;
+          "
+        >
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                Aceking女神娛樂城中，女神拉霸機系列遊戲，我主要負責，拉霸機遊戲共用模組開發與平台的串接、相關的測試、維護(機率彩金數據模擬)。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slot1  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Slot1. 三上悠亞 </h3>
+            <h6 class="testmonial-subtitle"> Yua Mikami </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                三上悠亞拉霸機
+                <b style="color:#ff214f;">
+                  維納斯女神的秘密
+                </b>、
+                <b style="color:#ff214f;">
+                  甜心空服員
+                </b>
+              </p>
+              <div style="">
+                <img src="../assets/resume/slot01.jpg" style="width:90%;" />
+              </div>
+              <span> 三上悠亞拉霸機 </span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/P1gNNH2s9JQ' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機01記錄(編號:P1gNNH2s9JQ)
+              </p>
+
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/JIyc2ht1s5k' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                心動模式實機記錄(編號:JIyc2ht1s5k)
+              </p>
+
+
+              
+
+
+              <p style="text-align:left; margin-top: 1rem; margin-bottom: 0px;">
+                觀看更多
+              </p>
+              <div style="text-align:left;">
+                <li> 實機01 https://youtu.be/P1gNNH2s9JQ	</li>
+                <li> 實機02 https://youtu.be/lEnaTfr71DE	</li>
+                <li> 實機03 https://youtu.be/j4G6009IKRM	</li>
+                <li> 心動模式 https://youtu.be/JIyc2ht1s5k	</li>
+                <li> Freespin https://youtu.be/yEVSQXgwJdg	</li>
+              </div>
+              
+
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- slot2  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Slot2. 夏木安梨 </h3>
+            <h6 class="testmonial-subtitle"> Anri Natuki </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                夏木安梨拉霸機
+                <b style="color:#ff214f;">
+                  戀愛事務所
+                </b>、
+                <b style="color:#ff214f;">
+                  暴風雨之夜
+                </b>
+              </p>
+              <div style="">
+                <img src="../assets/resume/slot02.jpg" style="width:90%;" />
+              </div>
+              <span> 夏木安梨拉霸機 </span>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/bxIrZXC0rYI' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機01記錄(編號:bxIrZXC0rYI)
+              </p>
+
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/OhozI66w1go' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                心動模式實機記錄(編號:OhozI66w1go)
+              </p>
+
+
+              
+
+
+              <p style="text-align:left; margin-top: 1rem; margin-bottom: 0px;">
+                觀看更多
+              </p>
+              <div style="text-align:left;">
+                <li> 實機01 https://youtu.be/bxIrZXC0rYI	</li>
+                <li> 心動模式 https://youtu.be/OhozI66w1go	</li>
+                <li> Freespin https://youtu.be/_WdnEQYdQ3s	</li>
+                <li> Sexywin https://youtu.be/bAp8VGXXDus	</li>
+                <li> 小遊戲 https://youtu.be/foTPHyo-ico	</li>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slot3  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Slot3. 高橋聖子 </h3>
+            <h6 class="testmonial-subtitle"> Shoko Takahashi </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                高橋聖子拉霸機
+                <b style="color:#ff214f;">
+                  南國海灘度假
+                </b>、
+                <b style="color:#ff214f;">
+                  夏之花火祭
+                </b>
+              </p>
+              <div style="">
+                <img src="../assets/resume/slot03.jpg" style="width:90%;" />
+              </div>
+              <span> 高橋聖子拉霸機 </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/DR2tmuK8DuQ' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機01記錄(編號:DR2tmuK8DuQ)
+              </p>
+
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/s6nL5HnFwvI' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                心動模式實機記錄(編號:s6nL5HnFwvI)
+              </p>
+
+
+              
+
+
+              <p style="text-align:left; margin-top: 1rem; margin-bottom: 0px;">
+                觀看更多
+              </p>
+              <div style="text-align:left;">
+                <li> 實機01 https://youtu.be/DR2tmuK8DuQ	</li>
+                <li> 心動模式 https://youtu.be/s6nL5HnFwvI	</li>
+                <li> Freespin https://youtu.be/Kicb9NufTvk	</li>
+                <li> 女神彩池 https://youtu.be/CdITPZRl6aY	</li>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slot4  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Slot4. 相澤南 </h3>
+            <h6 class="testmonial-subtitle"> Shoko Takahashi </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                相澤南拉霸機
+                <b style="color:#ff214f;">
+                  專屬女僕
+                </b>
+              </p>
+              <div style="">
+                <img src="../assets/resume/slot04.jpg" style="width:90%;" />
+              </div>
+              <span> 相澤南拉霸機 </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+     <!-- Game model -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 共用模組 </h3>
+            <h6 class="testmonial-subtitle"> Mini Game </h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                女神拉霸機有一定的機率會觸發小遊戲
+                <b style="color:#ff214f;">
+                  打屁股
+                </b>、
+                <b style="color:#ff214f;">
+                  野球拳
+                </b>
+              </p>
+              <div style="">
+                <img src="../assets/resume/slot05.jpg" style="width:90%;" />
+              </div>
+              <span> 打屁股 (連擊次數越高獎勵越多)</span>
+
+              <div style="">
+                <img src="../assets/resume/slot06.jpg" style="width:90%;" />
+              </div>
+              <span> 野球拳 (連過5關可以獲得高獎勵) </span>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/foTPHyo-ico' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機記錄(編號:foTPHyo-ico)
+              </p>
+
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/CdITPZRl6aY' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+               女神彩池實機記錄(編號:CdITPZRl6aY)
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEMO  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+      <div class="row mt-3 mb-5">
+        <div class="col-md-4 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">機率數據模擬</h3>
+            <h6 class="testmonial-subtitle"> Data </h6>
+            <div class="testmonial-body">
+
+              <p style="text-align: left;">
+                3X3SLOT 機率數據模擬 
+              </p>
+
+              <div style="">
+                <img src="../assets/resume/slot07.jpg" style="width:90%;"/>
+              </div>
+              <span> 數據模擬示意圖 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">測試</h3>
+            <h6 class="testmonial-subtitle">Test</h6>
+
+
+            <div class="testmonial-body">
+              <p data-v-55fa6d4f="" style="padding-top: 10px !important;"> *點擊試算產生隨機結果 3X3* </p>
+
+
+              <div class='embed-container'
+                style="
+                  width: 90%;
+                  display: inline-block;
+
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                ">
+                
+                <iframe src='http://3.38.112.103:18060/' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                  background: #fff;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align: center;">
+                隨機遊戲結果機率數據模擬
+              </p>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- status 6  -->
+  <div
+    v-else-if = "status == 6"
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('../assets/imgs/proj_ar.png') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> AR應用專案 </h1>
+        <h2 class="display-4 mb-5"> Unity &amp; 多人同樂 </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('../assets/imgs/proj_ar.png') no-repeat center center;
+          "
+        >
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                AR的研究與開發，使用Unity+Vuforia，加入不同的元素和主題，為大家帶來快樂。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slot1  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">天降元寶</h3>
+            <h6 class="testmonial-subtitle"> Money</h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  天降元寶
+                </b> 在一段的時間內打到多少元寶，將同比例換成獎金。
+              </p>
+
+              <div style="">
+                <img src="../assets/resume/ar001.jpg" style="width:90%;" />
+              </div>
+              <span> 天降元寶 </span>
+
+
+            
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/hzvHm7gJDYI' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機記錄(編號:hzvHm7gJDYI)
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- slot2  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">打年獸 </h3>
+            <h6 class="testmonial-subtitle"> Fried Nian Beast</h6>
+            <div class="testmonial-body">
+
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  打年獸
+                </b> 年獸擊殺後，最高擊殺%前三可獲得獎金。
+              </p>
+
+              <div style="">
+                <img src="../assets/resume/ar002.jpg" style="width:90%;" />
+              </div>
+              <span> 打年獸 </span>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/hJs34Xnj09Y' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機記錄(編號:hJs34Xnj09Y)
+              </p>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slot3  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">哆啦A夢 </h3>
+            <h6 class="testmonial-subtitle"> ドラえもん </h6>
+            <div class="testmonial-body">
+
+
+               <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  哆啦A夢
+                </b> 為日本漫畫家藤子·F·不二雄筆下著名的兒童、科幻類型日本漫畫
+              </p>
+
+              <div style="">
+                <img src="../assets/resume/ar003.jpg" style="width:90%;" />
+              </div>
+              <span> 哆啦A夢 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/lLLY5dJ-q3U' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                AR拍照版記錄(編號:lLLY5dJ-q3U)
+              </p>
+
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/vNDV8_u4DzY' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                實機記錄(編號:vNDV8_u4DzY)
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- status 7  -->
+  <div
+    v-else-if = "status == 7"
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('../assets/imgs/proj_creator.jpg') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> Creator應用專案 </h1>
+        <h2 class="display-4 mb-5"> Creator &amp; 多方應用 </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('../assets/imgs/proj_creator.jpg') no-repeat center center;
+          "
+        >
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                Creator引擎是在王族遊戲公司，為主要使用的工具之一，我們應用在許多地方上，比較多的還是用在H5遊戲的開發上。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 活動  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">活動大螢幕</h3>
+            <h6 class="testmonial-subtitle"> Screen</h6>
+            <div class="testmonial-body">
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  活動大螢幕
+                </b> ，在舉辦活動時我們做了這個螢幕觀眾端，這個不只單單是簡單的螢幕
+                ，還串連了我們的活動APP、主持人、遊戲、觀眾，整個進程都是以這個為主。
+              </p>
+
+              <div style="">
+                <img src="assets/imgs/proj_creator.jpg" style="width:90%;" />
+              </div>
+              <span> 活動大螢幕 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/Vp1Ow2txH9o' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                螢幕端記錄(編號:Vp1Ow2txH9o)
+              </p>
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/4A-gvXYiaZo' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                AR團體活動記錄(編號:4A-gvXYiaZo)
+              </p>
+
+
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Game  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">棋牌類、機台類遊戲 </h3>
+            <h6 class="testmonial-subtitle"> Game</h6>
+            <div class="testmonial-body">
+
+              <p style="text-align: left;">
+
+             
+              <div style="">
+                <img src="../assets/resume/188G03.jpg" style="width:90%;" />
+              </div>
+              <span> 機台類 </span>
+              <div style="">
+                <img src="../assets/resume/188_slot1.jpg" style="width:90%;" />
+              </div>
+              <div style="">
+                <img src="../assets/resume/188_slot2.jpg" style="width:90%;" />
+              </div>
+              <div style="">
+                <img src="../assets/resume/188_slot3.jpg" style="width:90%;" />
+              </div>
+              <span> Slot機台 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">實機</h3>
+            <h6 class="testmonial-subtitle">Demo</h6>
+
+            <div class="testmonial-body">
+
+              <div style="">
+                <img src="../assets/resume/188G01.jpg" style="width:90%;" />
+              </div>
+              <span> 棋牌類 </span>
+              <div style="">
+                <img src="../assets/resume/188G02.jpg" style="width:90%;" />
+              </div>
+              <span> 棋牌類 </span>
+
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://www.youtube.com/embed/V_54uvht5AM' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                德州撲克實機記錄(編號:V_54uvht5AM)
+              </p>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 coin  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">五元奪寶 </h3>
+            <h6 class="testmonial-subtitle"> 彩票制 </h6>
+            <div class="testmonial-body">
+
+              <div style="">
+                <img src="../assets/resume/creator01.jpg" style="width:90%;" />
+              </div>
+              <span> 彩票制 </span>
+              <div style="">
+                <img src="../assets/resume/creator01.jpg" style="width:90%;" />
+              </div>
+              <span> 開獎 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">五元奪寶</h3>
+            <h6 class="testmonial-subtitle">競標制</h6>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/creator03.jpg" style="width:90%;" />
+              </div>
+              <span> 競標制 </span>
+
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- girl  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">心動時刻 </h3>
+            <h6 class="testmonial-subtitle"> Girl friends </h6>
+            <div class="testmonial-body">
+
+               <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  心動時刻
+                </b> ，一款虛擬女友的角色扮演遊戲，預計結合線上線下的各種相關活動，並串接客服，客服可和玩家聊天遊戲，增加實際嬌女朋友的感覺。
+              </p>
+
+              <div style="">
+                <img src="../assets/resume/venos01.jpg" style="width:90%;" />
+              </div>
+              <span> 遊戲流程 </span>
+              <div style="">
+                <img src="../assets/resume/venos02.jpg" style="width:90%;" />
+              </div>
+              <span> 介面介紹 </span>
+               <div style="">
+                <img src="../assets/resume/venos03.jpg" style="width:90%;" />
+              </div>
+              <span> 戶動聊天 </span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">遊戲畫面</h3>
+            <h6 class="testmonial-subtitle">Views</h6>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/venos04.jpg" style="width:90%;" />
+              </div>
+              <span> 約會 </span>
+
+              <div style="">
+                <img src="../assets/resume/venos05.jpg" style="width:90%;" />
+              </div>
+              <span> 豔遇 </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">時時樂 </h3>
+            <h6 class="testmonial-subtitle"> Pig </h6>
+            <div class="testmonial-body">
+
+
+              <div style="">
+                <img src="../assets/resume/creator04.jpg" style="width:90%;" />
+              </div>
+              <span> 時時樂 </span>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
 
 
 

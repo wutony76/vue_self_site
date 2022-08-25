@@ -697,7 +697,7 @@
 									<div 
 										@click="project_info(3)"
 										class="card bg-transparent border my-3 my-md-0">
-										<img src="../assets/resume/messageImage_1614656930650.jpg" class="rounded-0 card-img-top mg-responsive">
+										<img src="assets/imgs/proj_scratch.jpg" class="rounded-0 card-img-top mg-responsive">
 										<div class="card-body">
 												<!--
 														<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
@@ -790,6 +790,25 @@
       </div>
   </div>
   -->
+
+
+
+
+  <!-- *****bottom button***** -->
+  <div 
+    v-if = "status != 0"
+    class="overlay text-white text-center"
+    style="
+      margin-bottom:50px;
+    ">
+    <a 
+      @click="go('project')"
+      class="btn btn-lg btn-primary" 
+      href="javascript:void(0)">更多專案
+    </a>
+  </div>
+  
+
 
   <!-- CONTACT Section  -->
 	<Contact></Contact>
@@ -1002,6 +1021,10 @@ export default {
 
     project_info(id) {
       this.$router.push({ path: "/project", query: { q: id } });
+    },
+
+    go(str) {
+      this.$router.push(str);
     },
 
   },
