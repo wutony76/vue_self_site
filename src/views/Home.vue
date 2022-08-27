@@ -43,24 +43,16 @@
       <div class="col-lg-6 has-img-bg">
         -->
 
-      <div class="col-lg-4 has-img-bg">
+      <div class="col-lg-4 has-img-bg"
+        style="
+          background:none;
+        ">
         <div class="row justify-content-center">
           <div class="col-sm-8 py-5 my-5">
-            <h2 class="mb-4"> 自傳 </h2>
-
-            <p>
-            您好，我是吳東霖，來自宜蘭。樂於接收新的知識與創新的想法，喜歡親自動手操作、發想設計，用實際上的行動和數據比空話更有份量。經常在團隊的交流與協調過程中，學習並增進自身的能力；個性穩定，做事細心謹慎，無論是工作或任務指派，都能有效的達成。期望用自己的專業替公司帶來更大的效益。
-
-            <br>
-            <br>
-
-            專業能力方面，高職開始學習程式設計與邏輯思考訓練，程式語言從VB、ActionScript、JAVA...等都有一段時間的接觸過，有扎實基礎的編寫程式和解決問題能力；新的技術和開發架構，都可以很快配合並獨立作業。工作至今，除了擔任3D美術，另有豐富的遊戲開發經驗，可以主動擔負相關工作，使任務分工能更有效率。
-            
-            </p>
+            <img src="../assets/resume/myhead.jpg" style="width:100%;">
 
           </div>
         </div>
-
       </div>
 
 
@@ -72,18 +64,15 @@
             <p> 中文姓名 | 吳東霖 </p>
             <p> 英文姓名 | Tony Wu </p>
             <p> 性別 | 男 </p>
-            <p> 就業狀態 | 待業中 </p>
             <p> E-mail | wutony76@gmail.com </p>
-            <p> Line | wutony76@gmail.com </p>
-            <p> FB Messenger | https://www.facebook.com/wutony76 </p>
+            <p> Line | id:wutony76 </p>
+            <p> FB Messenger | https://www.facebook.com/DINO2STUDIO </p>
             <p> 通訊地址 | 台北市信義區松山路*** </p>
-            <p> 就業狀態 | 待業中 </p>
-            <p> 學歷 | 致理科技大學 </p>
+            <p> 就業狀態 | 在職中 </p>
+            <p> 學歷 | 致理科技大學(資管系畢業) </p>
 
           </div>
         </div>
-
-
       </div>
 
 
@@ -101,10 +90,6 @@
             專業能力方面，高職開始學習程式設計與邏輯思考訓練，程式語言從VB、ActionScript、JAVA...等都有一段時間的接觸過，有扎實基礎的編寫程式和解決問題能力；新的技術和開發架構，都可以很快配合並獨立作業。工作至今，除了擔任3D美術，另有豐富的遊戲開發經驗，可以主動擔負相關工作，使任務分工能更有效率。
             
             </p>
-
-
-
-
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@
               <p><span class="ti-email pr-3"></span>wuotny76@gmail.com</p>
               <p><span class="ti-desktop pr-3"></span>https://www.linkedin.com/in/%E6%9D%B1%E9%9C%96-%E5%90%B3-60838715b/</p>
               <p><span class="ti-agenda pr-3"></span>https://pda.104.com.tw/profile/share/dgtwGvOpFcaAzltvK5ioMb0zH6GDHJlp</p>
-              <p><span class="ti-facebook pr-3"></span>https://www.facebook.com/wutony76/</p>
+              <p><span class="ti-facebook pr-3"></span>https://www.facebook.com/DINO2STUDIO</p>
               <p><span class="ti-cloud pr-3"></span>https://drive.google.com/drive/u/1/folders/1AHUNfBenimX7Rl5TTx-T39BcR1rTahud</p>
               <p><span class="ti-github pr-3"></span>https://github.com/wutony76</p>
 

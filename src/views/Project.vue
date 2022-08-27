@@ -160,6 +160,27 @@
           </div>
 
 
+          <div 
+            @click="chang_status(8)"
+            class="col-md-4"
+            style=" margin-top: 2rem;"
+            >
+            <div class="card bg-transparent border my-3 my-md-0">
+              <img src="../assets/resume/app05.png" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20">Android應用專案
+                    <span class="badge badge-primary" >
+                      APP
+                    </span></h4>
+
+                <p class="text-white">
+                  Android的相關應用開發
+                </p>
+              </div>
+            </div>
+          </div>
+
+
 
 
 
@@ -3058,6 +3079,244 @@
 
   </div>
 
+
+
+  <!-- status 8  -->
+  <div
+    v-else-if = "status == 8"
+    style="
+      margin-bottom: 45px;
+    "
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('/img/app05.png') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> Android應用專案 </h1>
+        <h2 class="display-4 mb-5"> Android &amp; APP </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('/img/app08.png') no-repeat center center;
+          "
+        >
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                Android多使用JAVA原生程式語言，來做移動設備應用程式開發。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">TRE活動APP</h2>
+    </div>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app05.png"
+          alt="TRE" >
+      </div>
+      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app06.png"
+          alt="TRE" >
+      </div>
+    </div>
+
+
+
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">ARSHOW</h2>
+    </div>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app00.png"
+          alt="ARSHOW" >
+      </div>
+      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app02.png"
+          alt="ARSHOW" >
+      </div>
+      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app03.png"
+          alt="ARSHOW" >
+      </div>
+      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app04.png"
+          alt="ARSHOW" >
+      </div>
+    </div>
+
+  
+
+
+    
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">爆茶餐廳(直播)</h2>
+    </div>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app08.png"
+          alt="茶餐廳" >
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app09.png"
+          alt="茶餐廳" >
+      </div>
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+          <!--
+          <h3 class="testmonial-title">活動大螢幕</h3>
+          <h6 class="testmonial-subtitle"> Screen</h6>
+          -->
+          <div class="testmonial-body" 
+            style="
+              margin-top: 0;
+            ">
+
+            <p style="text-align: left;">
+              <b style="color:#ff214f;">
+                爆茶餐廳
+              </b>，主要直播測試(主播端.推播端)，我們在遊戲中將直播訊號串接起來，讓玩家可以邊玩遊戲和主播聊天，最終目的是希望讓主播可以帶著大家一起玩桌遊。
+            </p>
+
+
+            <!--
+            <div style="">
+              <img src="assets/imgs/proj_creator.jpg" style="width:90%;" />
+            </div>
+            <span> 活動大螢幕 </span>
+            -->
+
+          </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+
+
+
+    
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">超激對決兌換商品(USER端)</h2>
+    </div>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app10.png"
+          alt="超激對決" >
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app11.png"
+          alt="超激對決" >
+      </div>
+
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app12.png"
+          alt="超激對決" >
+      </div>
+
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app13.png"
+          alt="超激對決" >
+      </div>
+      
+    </div>
+
+
+    
+
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">超激對決兌換(商家端)</h2>
+    </div>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app14.png"
+          alt="超激對決" >
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app15.png"
+          alt="超激對決" >
+      </div>
+
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app16.png"
+          alt="超激對決" >
+      </div>
+    </div>
+
+  </div>
 
 
 

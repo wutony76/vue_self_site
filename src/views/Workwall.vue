@@ -1,7 +1,5 @@
 <template>
 
-  
-  
 <main class="commonbg main has-footer">
 
   <!-- Navbar 
@@ -87,80 +85,42 @@
   <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
       <h2 class="section-title">3D美術</h2>
   </div>
-  <div class="gallary row">
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-          <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-          <a href="#" class="gallary-overlay">
-              <i class="gallary-icon ti-plus"></i>
-          </a>
-      </div>
+
+  <div class="waterfall">
+
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/flower_model.jpg" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/flower_texture.jpg" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+    
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/rocker_model.jpg" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/rocker_render_01.png" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/rocker_render_02.png" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/rocker_render.png" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+    <div class="waterfall-item wow fadeIn">
+      <img src="assets/imgs/3D/rocker_texture.jpg" alt="blender" class="waterfall-img " loading="lazy">
+      <a href="javascript:void(0)" class="gallary-overlay"></a>
+    </div>
+
   </div>
+
+
 
 
   <!--  gallary Section  -->
