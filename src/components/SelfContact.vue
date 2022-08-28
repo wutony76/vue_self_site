@@ -26,8 +26,9 @@
               <!--
               <p><span class="ti-location-pin pr-3"></span> 12345 Fake ST NoWhere, AB Country</p>
               <p><span class="ti-support pr-3"></span> (886) 910987324</p>
-              -->
               <p><span class="ti-email pr-3"></span>wuotny76@gmail.com</p>
+              -->
+              
               <p><span class="ti-desktop pr-3"></span>https://www.linkedin.com/in/%E6%9D%B1%E9%9C%96-%E5%90%B3-60838715b/</p>
               <p><span class="ti-agenda pr-3"></span>https://pda.104.com.tw/profile/share/dgtwGvOpFcaAzltvK5ioMb0zH6GDHJlp</p>
               <p><span class="ti-facebook pr-3"></span>https://www.facebook.com/DINO2STUDIO</p>

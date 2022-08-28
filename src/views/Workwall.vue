@@ -45,7 +45,10 @@
       </div>
   </nav>
   -->
-  <Nav></Nav>
+  <Nav
+    :_type = "view_type"
+  >
+  </Nav>
 
   <!-- header 
   <header id="home" class="header">
@@ -119,6 +122,227 @@
     </div>
 
   </div>
+
+
+
+
+  <!--  Sketchfab -->
+  <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+    <div class="row mt-3 mb-5">
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body">
+
+            <div class='embed-container'
+              style="
+                position: relative; 
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              ">
+              
+              <iframe src='https://sketchfab.com/3d-models/egypt-girl-8be90049900148bdb3328cf4f344c479' frameborder='0' allowfullscreen
+              style="
+                position: absolute;
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%;
+              "
+              ></iframe>
+            </div>
+
+            <p style="text-align:center;">
+              埃及公主
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body">
+            <div class='embed-container'
+              style="
+                position: relative; 
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              ">
+              
+              <iframe src='https://sketchfab.com/3d-models/red-girl-1a19763d095c49a586c1b85a7fec7af1' frameborder='0' allowfullscreen
+              style="
+                position: absolute;
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%;
+              "
+              ></iframe>
+            </div>
+
+            <p style="text-align:center;">
+              小紅帽
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+    <div class="row mt-3 mb-5">
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body">
+
+            <div class='embed-container'
+              style="
+                position: relative; 
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              ">
+              
+              <iframe src='https://sketchfab.com/3d-models/angel-girl-9e31a8be5d7d4807befd5eae309dd579' frameborder='0' allowfullscreen
+              style="
+                position: absolute;
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%;
+              "
+              ></iframe>
+            </div>
+
+            <p style="text-align:center;">
+              天使女孩
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body">
+            <div class='embed-container'
+              style="
+                position: relative; 
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              ">
+              
+              <iframe src='https://sketchfab.com/3d-models/aircraft-1f67277cde344a73aff18a612c1ac9a1' frameborder='0' allowfullscreen
+              style="
+                position: absolute;
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%;
+              "
+              ></iframe>
+            </div>
+
+            <p style="text-align:center;">
+              飛行器
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+   <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="" >
+    <div class="row mt-3 mb-5">
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body">
+
+            <div class='embed-container'
+              style="
+                position: relative; 
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              ">
+              
+              <iframe src='https://sketchfab.com/3d-models/bird-b581cf3f91b04c4e9d4ebfbf65bf35eb' frameborder='0' allowfullscreen
+              style="
+                position: absolute;
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%;
+              "
+              ></iframe>
+            </div>
+
+            <p style="text-align:center;">
+              禮物鳥
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body">
+            <div class='embed-container'
+              style="
+                position: relative; 
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              ">
+              
+              <iframe src='https://sketchfab.com/3d-models/weapon-346f383e59f4476ca70d4b1202fc506f' frameborder='0' allowfullscreen
+              style="
+                position: absolute;
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%;
+              "
+              ></iframe>
+            </div>
+
+            <p style="text-align:center;">
+              魔刀
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
 
 
 
@@ -637,6 +861,9 @@ export default {
 
   data() {
     return {
+      view_type: "workwall",
+
+
       my_usdt: 0,
       my_usdt_to_nt: 0,
 
@@ -755,6 +982,17 @@ export default {
 
 
 <style scoped>
+
+
+.testmonial-card .testmonial-body:after {
+  width: none;
+  height: none;
+  border-style: none;
+  background: none;  
+}
+
+
+
 img{
     width: 100%;
     height:auto;

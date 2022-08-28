@@ -181,6 +181,26 @@
           </div>
 
 
+          <div 
+            @click="chang_status(9)"
+            class="col-md-4"
+            style=" margin-top: 2rem;"
+            >
+            <div class="card bg-transparent border my-3 my-md-0">
+              <img src="../assets/resume/py01.jpg" class="rounded-0 card-img-top mg-responsive">
+              <div class="card-body">
+                <h4 class="pt20 pb20"> 系統WEB應用專案
+                  <span class="badge badge-primary" >
+                    Python
+                  </span></h4>
+                <p class="text-white">
+                  使用Python程式語言，開發各種系統與工具
+                </p>
+              </div>
+            </div>
+          </div>
+
+
 
 
 
@@ -3079,8 +3099,6 @@
 
   </div>
 
-
-
   <!-- status 8  -->
   <div
     v-else-if = "status == 8"
@@ -3295,16 +3313,21 @@
       <h2 class="section-title">超激對決兌換(商家端)</h2>
     </div>
     <div class="gallary row">
+
+      <!--
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app17.jpg"
+          alt="超激對決" >
+      </div>
+      -->
+
+
       <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
         <img 
           class="gallary-img"
           src="../assets/resume/app14.png"
-          alt="超激對決" >
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app15.png"
           alt="超激對決" >
       </div>
 
@@ -3314,7 +3337,1081 @@
           src="../assets/resume/app16.png"
           alt="超激對決" >
       </div>
+
+
+      
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+
+          <div class="testmonial-body" 
+            style="
+              margin-top: 0;
+            ">
+
+            <p style="text-align: left;">
+              <b style="color:#ff214f;">
+                驗證簡訊
+              </b>，簡訊服務偵測與分析手機簡訊內容擷取。
+            </p>
+
+
+             <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://github.com/wutony76/Vender' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                github
+              </p>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!--
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app15.png"
+          alt="超激對決" >
+      </div>
+      -->
+
+      
     </div>
+
+
+
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">驗證簡訊接收APP</h2>
+    </div>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img 
+          class="gallary-img"
+          src="../assets/resume/app18.jpg"
+          alt="驗證簡訊" >
+      </div>
+
+
+      <div class="col-md-6 my-3 my-md-0">
+        <div class="testmonial-card">
+          <!--
+          <h3 class="testmonial-title">活動大螢幕</h3>
+          <h6 class="testmonial-subtitle"> Screen</h6>
+          -->
+          <div class="testmonial-body" 
+            style="
+              margin-top: 0;
+            ">
+
+            <p style="text-align: left;">
+              <b style="color:#ff214f;">
+                驗證簡訊
+              </b>，簡訊服務偵測與分析手機簡訊內容擷取。
+            </p>
+
+
+             <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://github.com/wutony76/phone_sms_service' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                github
+              </p>
+
+
+           
+
+
+
+
+
+            <!--
+            <div style="">
+              <img src="assets/imgs/proj_creator.jpg" style="width:90%;" />
+            </div>
+            <span> 活動大螢幕 </span>
+            -->
+
+          </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+
+    
+
+    
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="    margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">決戰1951(飛機射擊遊戲) </h3>
+            <div class="testmonial-body">
+
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://github.com/wutony76/java_airplane' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                https://github.com/wutony76/java_airplane
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <!-- status 9  -->
+  <div
+    v-else-if = "status == 9"
+  >
+    <!-- header -->
+    <header id="home" 
+      class="header"
+
+      style="
+        background:url('/img/py01.jpg') no-repeat center center fixed;
+      "
+    >
+      <div class="overlay text-white text-center">
+        <h1 class="display-2 font-weight-bold my-3"> 系統WEB應用專案 </h1>
+        <h2 class="display-4 mb-5"> Python &amp; Django </h2>
+        <a 
+          @click="chang_status(0)"
+          class="btn btn-lg btn-primary" 
+          href="javascript:void(0)">返回專案
+        </a>
+
+      </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" data-wow-duration="1.5s">
+      <div class="row">
+        <div 
+          class="col-lg-6 has-img-bg"
+          style="
+            background:url('/img/py01.jpg') no-repeat center center;
+          "
+        >
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 py-5 my-5">
+              <h4 class="mb-4" style="font-weight:bold;"> 開發背景 </h4>
+              <p>
+                Python程式語言，後端與開發主要使用的程式語言，我們應用在許多地方，比較多用在系統與後端的開發上。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Catbox礦機構買系統 </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://youtu.be/LPWgZeJU5SI' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+               https://youtu.be/LPWgZeJU5SI
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Bitcome礦機購買系統</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://youtu.be/Zpkrs2-48cc' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                https://youtu.be/Zpkrs2-48cc
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+      
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">lynx錢包</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://youtu.be/UJ603aal3DM' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                https://youtu.be/UJ603aal3DM
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+
+        <!--
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Catbox礦機構買系統 </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://youtu.be/LPWgZeJU5SI' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+               https://youtu.be/LPWgZeJU5SI
+              </p>
+
+            </div>
+          </div>
+        </div>
+        -->
+
+
+
+      </div>
+    </div>
+
+
+
+    <!-- 活動  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+      <div class="row mt-3 mb-5">
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 台股指數資料爬取 </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://github.com/wutony76/stock_proj' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                https://github.com/wutony76/stock_proj
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">欣倫幼兒園</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://github.com/wutony76/web_shinland' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                https://github.com/wutony76/web_shinland
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-bottom: 5rem;" >
+
+      <div class="row ">
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> sunswap自動交易程序 </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1CqQQ5Wfujgohf_MvLFtiPCLO0m-zmnbp' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1CqQQ5Wfujgohf_MvLFtiPCLO0m-zmnbp" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Auto Check郵件</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1hbzecUSsUXOeaVT6K0Mrabi_R115nCtI' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1hbzecUSsUXOeaVT6K0Mrabi_R115nCtI" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Centor7系統資訊 </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1tRgJiY_y2muBFcFE7tuQfWXwK8-Vcf9o/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1tRgJiY_y2muBFcFE7tuQfWXwK8-Vcf9o/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">AWS S3 upload</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1HwsBrjvZg7aWta79QIJu_h9SfdnSc_sq/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1HwsBrjvZg7aWta79QIJu_h9SfdnSc_sq/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row " style="margin-top: 3rem !important;">
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> PyQt4+OpenCV </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1wwisR3UtMrGxoX0cGrlhlwY2676EvNea/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1wwisR3UtMrGxoX0cGrlhlwY2676EvNea/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">PyQt4+PIL</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1SVvbrX4y3oZoRnT8olvOe2PVq03ZEQLs/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1SVvbrX4y3oZoRnT8olvOe2PVq03ZEQLs/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Selenium Get Web </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/19Suu6_Y3a302jRGw79CxyBR7eCsBo0LW/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/19Suu6_Y3a302jRGw79CxyBR7eCsBo0LW/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">JKF自動登入</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1c9mLTBahvlHzqYnNQz8R0Jhabf7etxM8/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1c9mLTBahvlHzqYnNQz8R0Jhabf7etxM8/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>        
+      </div>
+
+
+      <div class="row " style="margin-top: 3rem !important;">
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Twisted_ws_conn </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1TKHMN6DNBPsSuQUkVaRlkO7RF1sY5tDD/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1TKHMN6DNBPsSuQUkVaRlkO7RF1sY5tDD/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Win32api+OpenCV</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/14CvoRcIt5Ij3NhzqDy24HbmBQz-iamkb/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/14CvoRcIt5Ij3NhzqDy24HbmBQz-iamkb/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> OpenCv_FacialIdentity </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1LrVjNL2f6lhpSC784hEtqkbH07Id5NI7' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1LrVjNL2f6lhpSC784hEtqkbH07Id5NI7" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Twisted+Autobahn_socket</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1gJVNNLBqUSZ3Yn2hWYsmbJASQwPo5hWT' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1gJVNNLBqUSZ3Yn2hWYsmbJASQwPo5hWT" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>        
+      </div>
+
+
+      <div class="row " style="margin-top: 3rem !important;">
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Stock TWSE </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1EXOyGHBE0-JYSRUa6IrHGGvHo_bep_ED' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1EXOyGHBE0-JYSRUa6IrHGGvHo_bep_ED" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Socket_proj</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1LGOVXn95kFRwkrAC2UuJjc17l8Avg9TJ' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1LGOVXn95kFRwkrAC2UuJjc17l8Avg9TJ" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> DDZ </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1Ojt0mZ8KBdUSRR69LkVbv0gcuiUmRywV' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1Ojt0mZ8KBdUSRR69LkVbv0gcuiUmRywV" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">PIL_cover_webp2jpg</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1uowpfR5YYg2HEmXyvSQcBrfINq6Aec5O/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1uowpfR5YYg2HEmXyvSQcBrfINq6Aec5O/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>        
+      </div>
+
+    </div>
+
+
+
+
+
+
 
   </div>
 
@@ -3338,6 +4435,26 @@
       href="javascript:void(0)">返回專案
     </a>
   </div>
+
+
+
+  
+
+  <!-- *****bottom button***** -->
+  <div 
+    v-if = "status == 0"
+    class="overlay text-white text-center"
+    style="
+      margin-bottom:50px;
+    ">
+    <a 
+      @click="go('workwall')"
+      class="btn btn-lg btn-primary" 
+      href="javascript:void(0)">其他作品
+    </a>
+  </div>
+
+
 
   <Contact></Contact>
 </main>
@@ -3416,6 +4533,10 @@ export default {
   methods: {
     chang_status(id) {
       this.status = id;
+    },
+
+    go(str) {
+      this.$router.push(str);
     },
 
   },

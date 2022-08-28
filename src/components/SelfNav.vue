@@ -86,6 +86,7 @@
             <li class="nav-item">
               <a 
                 @click="go('workwall')"
+                v-bind:class="[_type == 'workwall' ? 'nav-link select'  : 'nav-link']"
                 class="nav-link" 
                 href="javascript:void(0)">
                 
