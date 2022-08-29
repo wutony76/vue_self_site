@@ -76,9 +76,20 @@
                 class="nav-link" 
                 href="javascript:void(0)"
 
-                
                 >
                 專案介紹
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a 
+                @click="go('working')"
+                v-bind:class="[_type == 'working' ? 'nav-link select'  : 'nav-link']"
+                class="nav-link" 
+                href="javascript:void(0)"
+                >
+                技術紀錄
               </a>
             </li>
 

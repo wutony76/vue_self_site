@@ -3153,22 +3153,47 @@
   
     <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
       style="
-        min-height:250px;
+        min-height:150px;
       ">
       <h2 class="section-title">TRE活動APP</h2>
     </div>
     <div class="gallary row">
-      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app05.png"
-          alt="TRE" >
-      </div>
-      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app06.png"
-          alt="TRE" >
+      <div class="row ">
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+
+              <div style="">
+                <img src="../assets/resume/app05.png" style="width:100%;" />
+              </div>
+              <span> APP畫面 </span>
+
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app06.png" style="width:100%;" />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
     </div>
 
@@ -3176,186 +3201,354 @@
 
     <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
       style="
-        min-height:250px;
+        min-height:150px;
       ">
       <h2 class="section-title">ARSHOW</h2>
     </div>
     <div class="gallary row">
-      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app00.png"
-          alt="ARSHOW" >
-      </div>
-      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app02.png"
-          alt="ARSHOW" >
-      </div>
-      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app03.png"
-          alt="ARSHOW" >
-      </div>
-      <div class="col-sm-6 col-lg-6 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app04.png"
-          alt="ARSHOW" >
+
+      <div class="row ">
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+
+              <div style="">
+                <img src="../assets/resume/app00.png" style="width:100%;" />
+              </div>
+              <span> APP畫面 </span>
+
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app02.png" style="width:100%;" />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app03.png" style="width:100%;" />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app04.png" style="width:100%;" />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
     </div>
 
   
-
-
+    
     
     <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
       style="
-        min-height:250px;
+        min-height:150px;
       ">
       <h2 class="section-title">爆茶餐廳(直播)</h2>
     </div>
     <div class="gallary row">
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app08.png"
-          alt="茶餐廳" >
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app09.png"
-          alt="茶餐廳" >
-      </div>
 
-      <div class="col-md-6 my-3 my-md-0">
-        <div class="testmonial-card">
-          <!--
-          <h3 class="testmonial-title">活動大螢幕</h3>
-          <h6 class="testmonial-subtitle"> Screen</h6>
-          -->
-          <div class="testmonial-body" 
-            style="
-              margin-top: 0;
-            ">
-
-            <p style="text-align: left;">
-              <b style="color:#ff214f;">
-                爆茶餐廳
-              </b>，主要直播測試(主播端.推播端)，我們在遊戲中將直播訊號串接起來，讓玩家可以邊玩遊戲和主播聊天，最終目的是希望讓主播可以帶著大家一起玩桌遊。
-            </p>
+      <div class="row ">
 
 
-            <!--
-            <div style="">
-              <img src="assets/imgs/proj_creator.jpg" style="width:90%;" />
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app08.png" 
+                style="
+                  width:100%;
+
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
             </div>
-            <span> 活動大螢幕 </span>
-            -->
 
           </div>
         </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app09.png" 
+                  style="
+                    width:100%;
+
+                    max-height: 300px;  
+                    object-fit: cover;
+                  " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  爆茶餐廳
+                </b>，主要直播測試(主播端.推播端)，我們在遊戲中將直播訊號串接起來，讓玩家可以邊玩遊戲和主播聊天，最終目的是希望讓主播可以帶著大家一起玩桌遊。
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
-
-
       
     </div>
 
 
 
-    
     <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
       style="
-        min-height:250px;
+        min-height:150px;
       ">
       <h2 class="section-title">超激對決兌換商品(USER端)</h2>
     </div>
+
     <div class="gallary row">
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app10.png"
-          alt="超激對決" >
-      </div>
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app11.png"
-          alt="超激對決" >
-      </div>
+      <div class="row "
+        style="
+          width:100%;
+        "
+      >
 
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app12.png"
-          alt="超激對決" >
-      </div>
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app10.png" 
+                style="
+                  width:100%;
 
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app13.png"
-          alt="超激對決" >
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app11.png" 
+                  style="
+                    width:100%;
+
+                    max-height: 300px;  
+                    object-fit: cover;
+                  " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app12.png" 
+                  style="
+                    width:100%;
+
+                    max-height: 300px;  
+                    object-fit: cover;
+                  " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app13.png" 
+                  style="
+                    width:100%;
+
+                    max-height: 300px;  
+                    object-fit: cover;
+                  " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
-      
     </div>
-
 
     
 
     <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
       style="
-        min-height:250px;
+        min-height:150px;
       ">
       <h2 class="section-title">超激對決兌換(商家端)</h2>
     </div>
+
     <div class="gallary row">
+      <div class="row "
+        style="
+          width:100%;
+        "
+      >
 
-      <!--
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app17.jpg"
-          alt="超激對決" >
-      </div>
-      -->
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app14.png" 
+                style="
+                  width:100%;
 
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
 
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app14.png"
-          alt="超激對決" >
-      </div>
-
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app16.png"
-          alt="超激對決" >
-      </div>
-
-
-      
-      <div class="col-md-6 my-3 my-md-0">
-        <div class="testmonial-card">
-
-          <div class="testmonial-body" 
-            style="
-              margin-top: 0;
-            ">
-
-            <p style="text-align: left;">
-              <b style="color:#ff214f;">
-                驗證簡訊
-              </b>，簡訊服務偵測與分析手機簡訊內容擷取。
-            </p>
+          </div>
+        </div>
 
 
-             <div class='embed-container'
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app16.png" 
+                  style="
+                    width:100%;
+
+                    max-height: 300px;  
+                    object-fit: cover;
+                  " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  驗證簡訊
+                </b>，簡訊服務偵測與分析手機簡訊內容擷取。
+              </p>
+
+
+              <div class='embed-container'
                 style="
                   position: relative; 
                   padding-bottom: 56.25%;
@@ -3378,22 +3571,14 @@
               <p style="text-align:center;">
                 github
               </p>
+              
+            </div>
 
           </div>
         </div>
+
+
       </div>
-
-
-      <!--
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app15.png"
-          alt="超激對決" >
-      </div>
-      -->
-
-      
     </div>
 
 
@@ -3405,33 +3590,50 @@
       <h2 class="section-title">驗證簡訊接收APP</h2>
     </div>
     <div class="gallary row">
-      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-        <img 
-          class="gallary-img"
-          src="../assets/resume/app18.jpg"
-          alt="驗證簡訊" >
-      </div>
+
+      <div class="row "
+        style="
+          width:100%;
+        "
+      >
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app18.jpg" 
+                style="
+                  width:100%;
+
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <p style="text-align: left;">
+                <b style="color:#ff214f;">
+                  驗證簡訊
+                </b>，簡訊服務偵測與分析手機簡訊內容擷取。
+              </p>
 
 
-      <div class="col-md-6 my-3 my-md-0">
-        <div class="testmonial-card">
-          <!--
-          <h3 class="testmonial-title">活動大螢幕</h3>
-          <h6 class="testmonial-subtitle"> Screen</h6>
-          -->
-          <div class="testmonial-body" 
-            style="
-              margin-top: 0;
-            ">
-
-            <p style="text-align: left;">
-              <b style="color:#ff214f;">
-                驗證簡訊
-              </b>，簡訊服務偵測與分析手機簡訊內容擷取。
-            </p>
-
-
-             <div class='embed-container'
+              <div class='embed-container'
                 style="
                   position: relative; 
                   padding-bottom: 56.25%;
@@ -3454,28 +3656,102 @@
               <p style="text-align:center;">
                 github
               </p>
-
-
-           
-
-
-
-
-
-            <!--
-            <div style="">
-              <img src="assets/imgs/proj_creator.jpg" style="width:90%;" />
+              
             </div>
-            <span> 活動大螢幕 </span>
-            -->
 
           </div>
         </div>
+
+
       </div>
-
-
-      
     </div>
+
+
+
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn"
+      style="
+        min-height:250px;
+      ">
+      <h2 class="section-title">投資APP</h2>
+    </div>
+    <div class="gallary row">
+
+      <div class="row "
+        style="
+          width:100%;
+        "
+      >
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app19.jpg" 
+                style="
+                  width:100%;
+
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app20.jpg" 
+                style="
+                  width:100%;
+
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <div 
+              class="testmonial-body"
+              style="margin-top: 0;"
+            >
+              <div style="">
+                <img src="../assets/resume/app21.jpg" 
+                style="
+                  width:100%;
+
+                  max-height: 300px;  
+                  object-fit: cover;
+                " />
+              </div>
+              <span> APP畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
 
     
 
@@ -3483,7 +3759,7 @@
     <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="    margin-top: 3rem;" >
       <div class="row mt-3 mb-5">
 
-        <div class="col-md-6 my-3 my-md-0">
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title">決戰1951(飛機射擊遊戲) </h3>
             <div class="testmonial-body">
@@ -3582,10 +3858,103 @@
 
 
 
-    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
-      <div class="row mt-3 mb-5">
 
-        <div class="col-md-6 my-3 my-md-0">
+
+
+    <!-- 活動  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
+
+      <div class="row ">
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 模擬金流流程 </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                  background: #fff;
+                ">
+                
+                <iframe src='http://3.38.112.103:9321/' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://github.com/wutony76/coin_proj" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 代購網站 </h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web12.jpg" style="width:100%;" />
+              </div>
+              <span> 網站畫面 </span>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">代收代付系統</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web11.jpg" style="width:100%;" />
+              </div>
+              <span> 系統畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">投資系統</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web13.jpg" style="width:100%;" />
+              </div>
+              <span> 系統畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+      <div class="row " style="margin-top: 3rem !important;">
+
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title"> Catbox礦機構買系統 </h3>
             <div class="testmonial-body">
@@ -3610,14 +3979,14 @@
               </div>
 
               <p style="text-align:center;">
-               https://youtu.be/LPWgZeJU5SI
+              https://youtu.be/LPWgZeJU5SI
               </p>
 
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 my-3 my-md-0">
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title">Bitcome礦機購買系統</h3>
 
@@ -3650,15 +4019,8 @@
 
           </div>
         </div>
-      </div>
-    </div>
 
-
-    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
-      <div class="row mt-3 mb-5">
-
-      
-        <div class="col-md-6 my-3 my-md-0">
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title">lynx錢包</h3>
 
@@ -3692,53 +4054,102 @@
           </div>
         </div>
 
-
-        <!--
-        <div class="col-md-6 my-3 my-md-0">
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
-            <h3 class="testmonial-title"> Catbox礦機構買系統 </h3>
+            <h3 class="testmonial-title">內部EC2監控系統</h3>
+
             <div class="testmonial-body">
-              <div class='embed-container'
-                style="
-                  position: relative; 
-                  padding-bottom: 56.25%;
-                  height: 0;
-                  overflow: hidden;
-                  max-width: 100%;
-                ">
-                
-                <iframe src='https://youtu.be/LPWgZeJU5SI' frameborder='0' allowfullscreen
-                style="
-                  position: absolute;
-                  top: 0; 
-                  left: 0; 
-                  width: 100%; 
-                  height: 100%;
-                "
-                ></iframe>
+              <div style="">
+                <img src="../assets/resume/web10.jpg" style="width:100%;" />
               </div>
-
-              <p style="text-align:center;">
-               https://youtu.be/LPWgZeJU5SI
-              </p>
-
+              <span> 系統畫面 </span>
             </div>
+
           </div>
         </div>
-        -->
-
-
 
       </div>
-    </div>
 
 
 
-    <!-- 活動  -->
-    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-top: 3rem;" >
-      <div class="row mt-3 mb-5">
 
-        <div class="col-md-6 my-3 my-md-0">
+      <div class="row" style="margin-top: 3rem !important;">
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 女神娛樂城-手機版</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web05.jpg" style="width:100%;" />
+              </div>
+              <span> 娛樂城畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 女神娛樂城 </h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web06.jpg" style="width:100%;" />
+                <img src="../assets/resume/web07.jpg" style="width:100%;" />
+              </div>
+              <span> 娛樂城畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 女神商城 </h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web09.jpg" style="width:100%;" />
+              </div>
+              <span> 商城畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> 女神娛樂城-活動 </h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web08.png" 
+                style="
+                  width:100%;
+                  max-height: 200px;
+                  object-fit: cover;
+                " />
+              </div>
+              <span> 活動 </span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+      <div class="row" style="margin-top: 3rem !important;">
+
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title"> 台股指數資料爬取 </h3>
             <div class="testmonial-body">
@@ -3770,7 +4181,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 my-3 my-md-0">
+        <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title">欣倫幼兒園</h3>
 
@@ -3803,14 +4214,85 @@
 
           </div>
         </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Mini服飾網</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web01.jpg" style="width:100%;" />
+              </div>
+              <span> 網站畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">運健系官網</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web02.jpg" style="width:100%;" />
+              </div>
+              <span> 網站畫面 </span>
+            </div>
+
+          </div>
+        </div>
       </div>
+
+
+
+      <div class="row" style="margin-top: 3rem !important;">
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">FunLearn網站</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web03.jpg" style="width:100%;" />
+              </div>
+              <span> 網站畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">學習歷程網站</h3>
+
+            <div class="testmonial-body">
+              <div style="">
+                <img src="../assets/resume/web04.jpg" style="width:100%;" />
+              </div>
+              <span> 網站畫面 </span>
+            </div>
+
+          </div>
+        </div>
+
+
+        </div>
+
+
+
+
+
     </div>
 
 
 
      <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items" style="margin-bottom: 5rem;" >
 
-      <div class="row ">
+      <div class="row " style="margin-top: 3rem !important;">
         <div class="col-md-3 my-3 my-md-0">
           <div class="testmonial-card">
             <h3 class="testmonial-title"> sunswap自動交易程序 </h3>
@@ -4404,6 +4886,157 @@
           </div>
         </div>        
       </div>
+
+
+      <div class="row " style="margin-top: 3rem !important;">
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Demo數位合約</h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/drive/u/1/folders/1HDyQsPDHV0mXuWI9eTJ5-nCf44UQrwlu' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/drive/u/1/folders/1HDyQsPDHV0mXuWI9eTJ5-nCf44UQrwlu" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">產生驗證圖片</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1q2U5GZBGXr7jLWfqCQ7g0TY3y2v9Fu6O/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1q2U5GZBGXr7jLWfqCQ7g0TY3y2v9Fu6O/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title"> Tool notify Line </h3>
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1QvnEHytPXPmyAc92pgCYNz3tRWBB0HgN/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1QvnEHytPXPmyAc92pgCYNz3tRWBB0HgN/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 my-3 my-md-0">
+          <div class="testmonial-card">
+            <h3 class="testmonial-title">Tool notify TG</h3>
+
+            <div class="testmonial-body">
+              <div class='embed-container'
+                style="
+                  position: relative; 
+                  padding-bottom: 56.25%;
+                  height: 0;
+                  overflow: hidden;
+                  max-width: 100%;
+                ">
+                
+                <iframe src='https://drive.google.com/file/d/1d0rhcMS7LSJmFrfaN1upmaJmfD7_-McC/view?usp=sharing' frameborder='0' allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%;
+                "
+                ></iframe>
+              </div>
+
+              <p style="text-align:center;">
+                
+                無法顯示請前往 google
+                <a href="https://drive.google.com/file/d/1d0rhcMS7LSJmFrfaN1upmaJmfD7_-McC/view?usp=sharing" target="_blank" class="badge badge-primary" >
+                  查看原始碼
+								</a>
+              </p>
+              
+            </div>
+
+          </div>
+        </div>        
+      </div>
+
+
 
     </div>
 

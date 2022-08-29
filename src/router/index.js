@@ -121,6 +121,17 @@ const routes = [
     }
   },
 
+  {
+    path: '/working',
+    name: 'Working',
+    component:()=>import('../views/Working.vue'),
+    meta: {
+      title: 'Working'
+    }
+  },
+
+
+
 
 
 
